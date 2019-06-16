@@ -23,7 +23,7 @@ a {
 
 .banner-table {
 	text-align: center;
-	margin:auto;
+	margin: auto;
 }
 
 .banner {
@@ -68,7 +68,7 @@ h5 {
 }
 
 img {
-	/*THIS NEEDS DOING*/
+	border: 20px;
 }
 
 td {
