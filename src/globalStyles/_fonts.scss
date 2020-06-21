@@ -1,0 +1,23 @@
+@import './sizes';
+
+@mixin logoFont {
+	font-family: 'Times New Roman';
+	font-size: 2rem;
+	font-weight: normal;
+
+	@include mediaQueryFor(xsmall, max) {
+		font-size: 12vw;
+	}
+}
+
+@mixin headerFont {
+	font-family: 'Helvetica';
+	font-size: 1.5rem;
+	font-weight: normal;
+}
+
+@mixin bodyFont {
+	font-family: 'Helvetica';
+	font-size: 1rem;
+	font-weight: normal;
+}

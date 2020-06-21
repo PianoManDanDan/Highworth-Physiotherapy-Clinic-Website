@@ -1,0 +1,27 @@
+// colors, fonts, and sizes need to be imported for each use case
+@import 'colors';
+
+// app and grid styles are imported globally here
+// Don't import elsewhere
+@import 'app';
+@import 'grid';
+
+// import fonts here:
+// @import url('https://fonts.googleapis.com/css?family=Bebas+Neue');
+
+
+html {
+	font-size: 10px;
+	scroll-behavior: smooth;
+	height: auto;
+	min-height: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+#root {
+	display: flex;
+	flex-direction: column;
+}
