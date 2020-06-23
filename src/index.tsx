@@ -1,12 +1,49 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
+import {
+	Home,
+	Animals,
+	Contact,
+	Error,
+	Facilities,
+	People,
+	Physiotherapy,
+} from './pages';
+import { Banner } from './components/Banner/src';
+import './index.scss';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <div>Highworth Physiotherapy Clinic</div>
-  </React.StrictMode>,
-  document.getElementById('root')
+	<React.StrictMode>
+		<Router>
+			<Banner />
+			<Switch>
+				<Route exact path="/">
+					<Home />
+				</Route>
+				<Route exact path="/animals">
+					<Animals />
+				</Route>
+				<Route exact path="/contact">
+					<Contact />
+				</Route>
+				<Route exact path="/facilities">
+					<Facilities />
+				</Route>
+				<Route exact path="/people">
+					<People />
+				</Route>
+				<Route exact path="/physiotherapy">
+					<Physiotherapy />
+				</Route>
+				<Route>
+					<Error />
+				</Route>
+			</Switch>
+		</Router>
+	</React.StrictMode>,
+	document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change

@@ -68,8 +68,8 @@
 		"test:ci": "jest --ci --reporters=default --reporters=jest-junit",
 		"storybook": "start-storybook -p 6006 -s ./.storybook/assets",
 		"generate": "plop",
-		"lint": "eslint ./**",
-		"lint:fix": "eslint --fix ./**",
+		"lint": "eslint ./src/**",
+		"lint:fix": "eslint --fix ./src/**",
 		"eslint": "eslint",
 		"eject": "react-scripts eject"
 	},
