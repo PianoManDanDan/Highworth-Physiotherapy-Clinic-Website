@@ -12,6 +12,8 @@ import {
 	Physiotherapy,
 } from './pages';
 import { Banner } from './components/Banner/src';
+import { Footer } from './components/Footer/src';
+import { footerData } from './pages/data';
 import './index.scss';
 
 ReactDOM.render(
@@ -41,6 +43,7 @@ ReactDOM.render(
 					<Error />
 				</Route>
 			</Switch>
+			<Footer {...footerData} />
 		</Router>
 	</React.StrictMode>,
 	document.getElementById('root')
