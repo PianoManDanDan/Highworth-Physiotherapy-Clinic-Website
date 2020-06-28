@@ -15,13 +15,13 @@ import {
 } from './pages';
 import { Banner } from './components/Banner/src';
 import { Footer } from './components/Footer/src';
-import { footerData } from './pages/data';
+import { bannerData, footerData } from './pages/data';
 import './index.scss';
 
 ReactDOM.render(
 	<React.StrictMode>
 		<Router>
-			<Banner />
+			<Banner {...bannerData} />
 			<Switch>
 				<Route exact path="/">
 					<Home />
