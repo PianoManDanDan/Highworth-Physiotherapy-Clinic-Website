@@ -1,5 +1,6 @@
 import React from 'react';
+import { PageHeading } from '../components/PageHeading/src';
 
 export const Error: React.FC<{}> = () => {
-	return <div>Error</div>;
-}
+	return <PageHeading heading="Error" />;
+};

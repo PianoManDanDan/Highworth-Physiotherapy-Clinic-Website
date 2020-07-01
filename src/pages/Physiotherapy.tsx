@@ -1,5 +1,6 @@
 import React from 'react';
+import { PageHeading } from '../components/PageHeading/src';
 
 export const Physiotherapy: React.FC<{}> = () => {
-	return <div>Physiotherapy</div>;
-}
+	return <PageHeading heading="Physiotherapy" />;
+};

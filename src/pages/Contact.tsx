@@ -1,5 +1,6 @@
 import React from 'react';
+import { PageHeading } from '../components/PageHeading/src';
 
 export const Contact: React.FC<{}> = () => {
-	return <div>Contact Us</div>;
-}
+	return <PageHeading heading="Contact Us" />;
+};

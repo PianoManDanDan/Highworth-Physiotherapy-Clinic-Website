@@ -1,5 +1,6 @@
 import React from 'react';
+import { PageHeading } from '../components/PageHeading/src';
 
 export const Animals: React.FC<{}> = () => {
-	return <div>Animals</div>;
-}
+	return <PageHeading heading="Animals" />;
+};
