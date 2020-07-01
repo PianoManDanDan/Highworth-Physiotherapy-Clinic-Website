@@ -1,18 +1,5 @@
 import { FooterProps, AffiliateLink } from '../../components/Footer/src';
 
-const insuranceProviderList: string[] = [
-	'Aviva',
-	'Bupa',
-	'Cigna',
-	'Groupama',
-	'Legal & General',
-	'Petplan',
-	'Simply Health',
-	'Standard Life',
-	'Tesco Pet Insurance',
-	'Vitality (FORMERLY PRUHEALTH)',
-];
-
 const affiliateList: AffiliateLink[] = [
 	{
 		name: 'CSP',
@@ -50,6 +37,5 @@ const affiliateList: AffiliateLink[] = [
 ];
 
 export const footerData: FooterProps = {
-	insuranceProviders: insuranceProviderList,
 	affiliateLinks: affiliateList,
 };

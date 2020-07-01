@@ -5,6 +5,5 @@ export type AffiliateLink = {
 };
 
 export type FooterProps = {
-	insuranceProviders: string[];
 	affiliateLinks: AffiliateLink[];
 };
