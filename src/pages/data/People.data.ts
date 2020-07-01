@@ -139,38 +139,6 @@ export const peopleData: ProfileProps[] = [
 		],
 	},
 	{
-		name: 'Leanne Baker',
-		image: {
-			src: '', // TODO: src
-			altText: 'Leanne Baker - Physiotherapist',
-		},
-		bio: [
-			`Leanne first became interested in Physiotherapy when she was working as a groom for Paul Tapner at Wickstead Farm. Having observed Sonya
-			 treating Paul's horses, she was encouraged to train as a Physiotherapist herself. She qualified as a human Physiotherapist in 2012 with
-			 a 1st Class honours Degree from The University of the West of England. She also works at GWH and in GP practices in Swindon.`,
-			`Leanne has completed a master's degree in Veterinary Physiotherapy and is a "Category A" member of ACPAT, therefore being able to treat
-			 animals.`,
-			`Leanne also enjoys horse riding, working out in the gym and swimming in her spare time, as well as being an active member of the Local
-			 Chartered Physiotherapy branch.`,
-		],
-		qualification: 'MCSP',
-		yearQualified: 2012,
-		specialities: [
-			'Backs',
-			'Necks',
-			'Head Aches',
-			'Knee Pain',
-			'Joint Pain',
-			'Arthritis',
-			'Biomechanics',
-			'Sports Injury Rehabilitation',
-			'Manual Therapy',
-			'Mobilisations and Manipulations',
-			'Soft Tissue Massage',
-			'Electrotherapy',
-		],
-	},
-	{
 		name: 'Shani Prosser',
 		image: {
 			src: '', // TODO: src
