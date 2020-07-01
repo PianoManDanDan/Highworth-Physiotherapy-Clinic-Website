@@ -29,7 +29,12 @@ export const Profile: React.FC<ProfileProps> = ({
 						Speciality: {specialities.join(', ')}
 					</div>
 				) : null}
-				<div className="profile__bio">{bio}</div>
+				<div className="profile__bio">
+					{bio.map((paragraph) => (
+						// eslint-disable-next-line react/jsx-key
+						<div>{paragraph}</div>
+					))}
+				</div>
 			</div>
 		</div>
 	);

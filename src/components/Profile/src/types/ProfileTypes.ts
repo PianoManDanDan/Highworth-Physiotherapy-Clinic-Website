@@ -1,11 +1,11 @@
 export type ProfileProps = {
+	name: string;
 	image: {
 		src: string;
 		altText: string;
 	};
-	name: string;
+	bio: string[];
 	qualification?: string;
 	yearQualified?: number;
 	specialities?: string[];
-	bio: string;
 };
