@@ -1,5 +1,9 @@
 import React from 'react';
-import { {{pascalCase name}} } from '../src';
+import { {{pascalCase name}}, {{pascalCase name}}Props } from '../src';
+
+const get{{pascalCase name}}Props = (): {{pascalCase name}}Props => ({
+	property: 'blah',
+});
 
 export default {
 	title: '{{pascalCase name}}',
@@ -8,6 +12,6 @@ export default {
 
 export const Story = () => {
 	return (
-		<{{pascalCase name}} />
+		<{{pascalCase name}} {...get{{pascalCase name}}Props()} />
 	);
 }
