@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { BannerProps } from './types';
 import { Navbar } from './subcomponents/Navbar/src';
 import './Banner.scss';
@@ -14,7 +15,9 @@ export const Banner: React.FC<BannerProps> = ({
 		<div className="banner">
 			<div className="app-content-container">
 				<div className="banner__logo">
-					<img src={spineLogo} alt="Highworth Physiotherapy Clinic logo" />
+					<Link to="/">
+						<img src={spineLogo} alt="Highworth Physiotherapy Clinic logo" />
+					</Link>
 				</div>
 				<div className="banner__title">{name}</div>
 				<div className="banner__address">{address}</div>
