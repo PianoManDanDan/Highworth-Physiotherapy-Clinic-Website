@@ -22,7 +22,8 @@ export const Footer: React.FC<FooterProps> = ({ affiliateLinks }) => {
 					</div>
 					<div className="col-md-3 col-sm-12">
 						<div className="footer__heading">
-								Affiliated with:
+							{/* TODO: Check wording is OK */}
+							Affiliated with:
 						</div>
 						<div>
 							<ul>
