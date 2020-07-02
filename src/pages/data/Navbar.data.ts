@@ -5,11 +5,12 @@ import {
 
 const navbarLinks: NavbarLink[] = [
 	{
+		// TODO: Remove Home Link? Not needed in modern web design
 		text: 'Home',
 		href: '/',
 	},
 	{
-		text: 'People',
+		text: ' Our Team',
 		href: '/people',
 	},
 	{
