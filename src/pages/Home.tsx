@@ -2,6 +2,7 @@ import React from 'react';
 import { PageHeading } from '../components/PageHeading/src';
 
 export const Home: React.FC<{}> = () => {
+	document.title = 'Highworth Physiotherapy Clinic';
 	return (
 		<div className="page-home">
 			<PageHeading heading="Home page" />

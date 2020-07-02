@@ -3,10 +3,12 @@ import { PageHeading } from '../components/PageHeading/src';
 import { PageSubHeading } from '../components/PageSubHeading/src';
 
 export const Contact: React.FC<{}> = () => {
+	document.title = 'Contact Us | Highworth Physiotherapy Clinic';
 	return (
 		<div className="page-contact">
 			<div className="app-content-container">
 				<PageHeading heading="Contact Us" />
+				{/* TODO: Add images */}
 				<div className="location">
 					<PageSubHeading text="Our Location" />
 					We are located at 13 High Street, Highworth, just down from the main

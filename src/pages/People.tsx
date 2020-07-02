@@ -4,8 +4,9 @@ import { PageHeading } from '../components/PageHeading/src';
 import { peopleData } from './data';
 
 export const People: React.FC<{}> = () => {
+	document.title = 'Meet the Team | Highworth Physiotherapy Clinic';
 	return (
-		<div className="people">
+		<div className="page-people">
 			<div className="app-content-container">
 				<PageHeading heading="Meet the Team" />
 
