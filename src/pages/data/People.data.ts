@@ -41,15 +41,16 @@ export const peopleData: ProfileProps[] = [
 	{
 		name: 'Emma Overson',
 		image: {
-			src: '', // TODO: src
+			src: '', // TODO: src - use new photo
 			altText: 'Emma Overson - Physiotherapist',
 		},
 		bio: [
-			`Emma graduated from Coventry University with a BSc (Hons) in Physiotherapy in 1994. She spent 7 years working in the NHS before moving into
-			 private practice. She specialises in musculoskeletal problems and sports injuries with a particular interest in core stability.`,
-			`Emma gained a qualification in teaching pilates in 2003 from the Australian Physiotherapy and Pilates Institute, which she now teaches to
-			 patients on a 1:1 basis as well as running group classes in and around Highworth.`,
-			`Emma is a member of the Acupuncture Association of Chartered Physiotherapists and is also a Physio First member.`,
+			`Emma graduated from Coventry University with a BSc (Hons) degree in Physiotherapy. She spent 7 years working in the NHS before moving into
+			 private practice. She specialises in musculoskeletal problems with a particular interest in lower back / pelvic problems and core stability.`,
+			`Emma gained a qualification in teaching Pilates in 2003 from the Australian Physiotherapy and Pilates Institute which she teaches to patients
+			 on a 1:1 basis and also in group classes in Highworth. Emma also teaches classes for the over-60s in Shrivenham and Faringdon. These classes
+			 are ideal for people who do not wish to lie down on the floor as all of the exercises are carried out in sitting and standing.`,
+			`Emma is a member of Physio First the organisation for private Physiotherapists.`,
 		],
 		qualification: 'MCSP',
 		yearQualified: 1994,
