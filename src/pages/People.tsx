@@ -9,10 +9,11 @@ export const People: React.FC<{}> = () => {
 		<div className="page-people">
 			<div className="app-content-container">
 				<PageHeading heading="Meet the Team" />
-
-				{peopleData.map((person) => (
-					<Profile {...person} key={person.name} />
-				))}
+				<div className="page-content">
+					{peopleData.map((person) => (
+						<Profile {...person} key={person.name} />
+					))}
+				</div>
 			</div>
 		</div>
 	);

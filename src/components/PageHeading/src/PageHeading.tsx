@@ -4,8 +4,8 @@ import { PageHeadingProps } from './types';
 
 export const PageHeading: React.FC<PageHeadingProps> = ({ heading }) => {
 	return (
-		<div className="page-heading" role="heading" aria-level={1}>
-			{heading}
+		<div className="page-heading">
+			<h1>{heading}</h1>
 		</div>
 	);
 };

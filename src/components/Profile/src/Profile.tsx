@@ -32,7 +32,7 @@ export const Profile: React.FC<ProfileProps> = ({
 				<div className="profile__bio">
 					{bio.map((paragraph) => (
 						// eslint-disable-next-line react/jsx-key
-						<div>{paragraph}</div>
+						<p>{paragraph}</p>
 					))}
 				</div>
 			</div>
