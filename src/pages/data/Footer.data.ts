@@ -30,10 +30,6 @@ const affiliateList: AffiliateLink[] = [
 		href: 'https://www.rampregister.org/',
 		abbrTitle: 'Register of Animal Musculoskeletal Practitioners',
 	},
-	{
-		name: 'Highworth Business Group',
-		href: 'http://www.highworth.co.uk/',
-	},
 ];
 
 export const footerData: FooterProps = {
