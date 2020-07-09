@@ -1,5 +1,6 @@
 // colors, fonts, and sizes need to be imported for each use case
 @import 'colors';
+@import 'fonts';
 
 // app and grid styles are imported globally here
 // Don't import elsewhere
@@ -19,6 +20,7 @@ html {
 
 body {
 	margin: 0;
+	@include bodyFont();
 }
 
 #root {
