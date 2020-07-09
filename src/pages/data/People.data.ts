@@ -12,11 +12,11 @@ export const peopleData: ProfileProps[] = [
 			 Highworth Physiotherapy Clinic, which she launched in 1989. She started her physiotherapy career working in NHS hospitals and running
 			 clinics in GP surgeries before starting her private clinic. She lectures to GP's on physiotherapy procedures and is a Physio First member.
 			 Her special interest is the spine and she spends a lot of time treating backs and necks.`,
-			`Sonya also treats animals and was the chair person for ACPAT from 2009-2013. She runs regular weekly clinics at local venues, including
-			 Wickstead Farm Equestrian Center and Rectory Farm, as well as treating small animals in the clinic. She runs hands on training days for
-			 category "B" ACPAT members and lectures at Hartpury College and Liverpool University. She also gives lectures to vets and physiotherapists
-			 at international conferences. Sonya was a veterinary physiotherapist at the London 2012 Olympics, where she helped to treat the horses of
-			 some of the equestrian teams from all over the world.`,
+			`Sonya also treats animals and was the chair person for ACPAT from 2009-2013 and is a founder member of RAMP and its president from 2017-2020.
+			 She runs regular monthly clinics at local venues, including Wickstead Farm Equestrian Center and Rectory Farm, as well as treating small 
+			 animals in the clinic. She runs hands on training days for category "B" ACPAT members and lectures at Hartpury College and Liverpool University.
+			 She also gives lectures to vets and physiotherapists at international conferences. Sonya was a veterinary physiotherapist at the London 2012
+			 Olympics, where she helped to treat the horses of some of the equestrian teams from all over the world.`,
 			`Sonya has also written research articles on the effectiveness of topical cooling agents of the equine limb.`,
 		],
 		qualification: 'MCSP',
