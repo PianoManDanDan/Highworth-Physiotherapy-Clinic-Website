@@ -1,19 +1,28 @@
 @import './sizes';
+@import './colors';
 
 @mixin logoFont {
 	font-family: 'Times New Roman';
-	font-size: 2rem;
+	font-size: 3.5rem;
 	font-weight: normal;
+	color: color(homepage, hpc-blue, 1);
 
-	@include mediaQueryFor(xsmall, max) {
-		font-size: 12vw;
-	}
+	// @include mediaQueryFor(xsmall, max) {
+	// 	font-size: 12vw;
+	// }
+}
+
+@mixin logoAddressFont {
+	font-family: Arial;
+	font-size: 2rem;
+	color: color(homepage, hpc-gray, 2);
 }
 
 @mixin headerFont {
 	font-family: 'Helvetica';
 	font-size: 1.5rem;
 	font-weight: normal;
+	color: color(homepage, hpc-red, 1);
 }
 
 @mixin bodyFont {
