@@ -3,12 +3,14 @@ import { FooterProps } from './types';
 import './Footer.scss';
 import facebookLogo from '../../../../assets/logos/f_logo.png';
 
+// TODO: Put telephone link in bottom
+// TODO: Copyright
 export const Footer: React.FC<FooterProps> = ({ affiliateLinks }) => {
 	return (
 		<div className="footer">
 			<div className="app-content-container">
 				<div className="row">
-					<div className="col-md-3 col-sm-12">
+					<div className="col-md-4 col-sm-12">
 						<div className="footer__facebook">
 							Find us on Facebook
 							<a
@@ -20,10 +22,9 @@ export const Footer: React.FC<FooterProps> = ({ affiliateLinks }) => {
 							</a>
 						</div>
 					</div>
-					<div className="col-md-3 col-sm-12">
+					<div className="col-md-4 col-sm-12">
 						<div className="footer__heading">
-							{/* TODO: Check wording is OK */}
-							Affiliated with:
+							For more information about physiotherapy, visit:
 						</div>
 						<div>
 							<ul>
