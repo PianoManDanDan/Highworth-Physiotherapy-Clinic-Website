@@ -10,7 +10,7 @@ const navbarLinks: NavbarLink[] = [
 		href: '/',
 	},
 	{
-		text: ' Our Team',
+		text: 'Our Team',
 		href: '/people',
 	},
 	{

@@ -234,7 +234,6 @@ export const Physiotherapy: React.FC<{}> = () => {
 								have shown competency in their field.
 							</p>
 						</div>
-						{/* SRP? - Old title (State Registered Physiotherapist) */}
 					</div>
 				</div>
 			</div>
