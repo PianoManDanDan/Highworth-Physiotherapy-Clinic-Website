@@ -5,13 +5,13 @@ import facebookLogo from '../../../../assets/logos/f_logo.png';
 
 // TODO: Put telephone link in bottom
 // TODO: Copyright
-export const Footer: React.FC<FooterProps> = ({ affiliateLinks }) => {
+export const Footer: React.FC<FooterProps> = ({ regulatoryBodyLinks }) => {
 	return (
 		<div className="footer">
 			<div className="app-content-container">
 				<div className="row">
 					<div className="col-md-4 col-sm-12">
-						<div className="footer__facebook">
+						<div className="footer__social-media">
 							Find us on Facebook
 							<a
 								href="https://www.facebook.com/HighworthPhysio/"
@@ -27,24 +27,25 @@ export const Footer: React.FC<FooterProps> = ({ affiliateLinks }) => {
 							All of our physios are registered with at least one of the
 							following regulatory bodies:
 						</div>
-						<div>
+						<div className="footer__regulatory-bodies">
 							<ul>
-								{affiliateLinks.map((affiliate) => (
-									<li key={affiliate.name}>
-										<a
-											href={affiliate.href}
-											target="_blank"
-											rel="noopener noreferrer"
-										>
-											{affiliate.abbrTitle ? (
-												<abbr title={affiliate.abbrTitle}>
-													{affiliate.name}
+								{regulatoryBodyLinks.map((regulatoryBody) => (
+									<a
+										href={regulatoryBody.href}
+										target="_blank"
+										rel="noopener noreferrer"
+										key={regulatoryBody.name}
+									>
+										<li>
+											{regulatoryBody.abbrTitle ? (
+												<abbr title={regulatoryBody.abbrTitle}>
+													{regulatoryBody.name}
 												</abbr>
 											) : (
-												affiliate.name
+												regulatoryBody.name
 											)}
-										</a>
-									</li>
+										</li>
+									</a>
 								))}
 							</ul>
 						</div>

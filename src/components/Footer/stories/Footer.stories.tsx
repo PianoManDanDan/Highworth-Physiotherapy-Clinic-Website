@@ -3,7 +3,7 @@ import { text } from '@storybook/addon-knobs';
 import { Footer, FooterProps } from '../src';
 
 const getFooterProps = (): FooterProps => ({
-	affiliateLinks: [
+	regulatoryBodyLinks: [
 		{
 			name: text('Affiliate 1', 'Affiliate 1'),
 			href: '/',

@@ -1,6 +1,6 @@
-import { FooterProps, AffiliateLink } from '../../components/Footer/src';
+import { FooterProps, RegulatoryBodyLink } from '../../components/Footer/src';
 
-const affiliateList: AffiliateLink[] = [
+const regulatoryBodyList: RegulatoryBodyLink[] = [
 	{
 		name: 'CSP',
 		href: 'https://www.csp.org.uk/',
@@ -33,5 +33,5 @@ const affiliateList: AffiliateLink[] = [
 ];
 
 export const footerData: FooterProps = {
-	affiliateLinks: affiliateList,
+	regulatoryBodyLinks: regulatoryBodyList,
 };

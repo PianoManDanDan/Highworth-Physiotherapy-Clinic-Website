@@ -1,9 +1,9 @@
-export type AffiliateLink = {
+export type RegulatoryBodyLink = {
 	name: string;
 	href: string;
 	abbrTitle?: string;
 };
 
 export type FooterProps = {
-	affiliateLinks: AffiliateLink[];
+	regulatoryBodyLinks: RegulatoryBodyLink[];
 };
