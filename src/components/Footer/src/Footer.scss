@@ -1,6 +1,41 @@
+@import '../../../globalStyles/colors';
+@import '../../../globalStyles/sizes';
+
 .footer {
 	// TODO: Fix Footer to bottom of page
-	
+	// TODO: Add background color to differentiate from body?
+	padding-top: 2rem;
+
+	&__social-media {
+		display: flex;
+		align-items: center;
+		img {
+			padding: 0 1rem;
+			height: 3rem;
+		}
+	}
+	&__regulatory-bodies {
+		a {
+			text-decoration: none;
+		}
+
+		li {
+			list-style-type: none;
+			padding: 0.5rem;
+
+			&:hover {
+				background: color(homepage, hpc-white, 1);
+				color: color(homepage, hpc-gray, 2);
+				font-weight: bold;
+			}
+		}
+	}
+	&__copyright {
+		background: color(homepage, hpc-gray, 1);
+		color: color(homepage, hpc-white, 1);
+		font-size: 1.2rem;
+	}
+
 	.app-content-container {
 		padding: 1rem 0;
 
@@ -8,6 +43,10 @@
 			display: flex;
 			justify-content: center;
 			align-items: stretch;
+
+			@include mediaQueryFor(small, max) {
+				flex-direction: column;
+			}
 		}
 	}
 }

@@ -4,7 +4,6 @@ import './Footer.scss';
 import facebookLogo from '../../../../assets/logos/f_logo.png';
 
 // TODO: Put telephone link in bottom
-// TODO: Copyright
 export const Footer: React.FC<FooterProps> = ({ regulatoryBodyLinks }) => {
 	return (
 		<div className="footer">
@@ -50,6 +49,11 @@ export const Footer: React.FC<FooterProps> = ({ regulatoryBodyLinks }) => {
 							</ul>
 						</div>
 					</div>
+				</div>
+			</div>
+			<div className="footer__copyright">
+				<div className="app-content-container">
+					&copy; Highworth Physiotherapy Clinic 2020
 				</div>
 			</div>
 		</div>
