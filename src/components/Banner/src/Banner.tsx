@@ -14,15 +14,24 @@ export const Banner: React.FC<BannerProps> = ({
 	return (
 		<div className="banner">
 			<div className="app-content-container">
-				<div className="banner__logo">
-					<Link to="/">
-						<img src={spineLogo} alt="Highworth Physiotherapy Clinic logo" />
-					</Link>
-				</div>
-				<div className="banner__title">{name}</div>
-				<div className="banner__address">{address}</div>
-				<div className="banner_telephone">
-					<a href={telephone.href}>{telephone.text}</a>
+				<div className="col-xs-12">
+					<div className="row">
+						<div className="banner__logo">
+							<Link to="/">
+								<img
+									src={spineLogo}
+									alt="Highworth Physiotherapy Clinic logo"
+								/>
+							</Link>
+						</div>
+						<div className="banner__details">
+							<div className="banner__title">{name}</div>
+							<div className="banner__address">{address}</div>
+							<div className="banner__telephone">
+								tel: <a href={telephone.href}>{telephone.text}</a>
+							</div>
+						</div>
+					</div>
 				</div>
 				<Navbar {...navbarLinks} />
 			</div>
