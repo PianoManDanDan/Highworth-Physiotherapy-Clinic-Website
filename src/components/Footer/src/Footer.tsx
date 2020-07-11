@@ -24,7 +24,8 @@ export const Footer: React.FC<FooterProps> = ({ affiliateLinks }) => {
 					</div>
 					<div className="col-md-4 col-sm-12">
 						<div className="footer__heading">
-							For more information about physiotherapy, visit:
+							All of our physios are registered with at least one of the
+							following regulatory bodies:
 						</div>
 						<div>
 							<ul>
