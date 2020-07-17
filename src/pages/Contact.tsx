@@ -28,7 +28,10 @@ export const Contact: React.FC<{}> = () => {
 							/>
 						</div>
 					</div>
-					<OpeningHours {...openingHoursData} />
+					<div className="opening-hours-section">
+						<PageSubHeading text="Opening Hours" />
+						<OpeningHours {...openingHoursData} />
+					</div>
 				</div>
 			</div>
 		</div>

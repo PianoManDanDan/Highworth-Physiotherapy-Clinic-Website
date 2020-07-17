@@ -1,7 +1,6 @@
 import React from 'react';
 import { OpeningHoursProps } from './types';
 import './OpeningHours.scss';
-import { PageSubHeading } from '../../PageSubHeading/src';
 
 export const OpeningHours: React.FC<OpeningHoursProps> = ({
 	openingHours,
@@ -9,7 +8,6 @@ export const OpeningHours: React.FC<OpeningHoursProps> = ({
 }) => {
 	return (
 		<div className="opening-hours">
-			<PageSubHeading text="Opening Hours" />
 			<div className="opening-hours__table">
 				{openingHours.map((dailyHours) => (
 					<div className="row" key={dailyHours.day}>
