@@ -9,7 +9,6 @@ export const OpeningHours: React.FC<OpeningHoursProps> = ({
 }) => {
 	return (
 		<div className="opening-hours">
-			<PageSubHeading text="Opening Hours" />
 			<div className="opening-hours__table">
 				{openingHours.map((dailyHours) => (
 					<div className="row" key={dailyHours.day}>

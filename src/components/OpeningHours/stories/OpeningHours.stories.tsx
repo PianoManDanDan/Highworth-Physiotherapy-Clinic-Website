@@ -7,7 +7,7 @@ const getOpeningHoursProps = (): OpeningHoursProps => ({
 		{
 			day: text('Day', 'Monday'),
 			openingTime: text('Opening Time', '9:00'),
-			closingTime: text('Opening Time', '17:00'),
+			closingTime: text('Closing Time', '17:00'),
 		},
 	],
 	closedAtWeekend: boolean('Closed at weekends?', true),
