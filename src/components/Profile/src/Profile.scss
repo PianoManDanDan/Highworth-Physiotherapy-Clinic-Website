@@ -1,0 +1,32 @@
+@import '../../../globalStyles/colors';
+
+.profile {
+
+	&__image {
+		display: inline-block;
+		padding: 1rem;
+		img {
+			height: 15rem;
+		}
+	}
+
+	&__name {
+		display: inline-block;
+		color: color(homepage, hpc-red, 1);
+		padding: 0.5rem 1rem;
+		font-weight: bold;
+	}
+	&__qualification-year {
+		display: inline-block;
+		font-weight: bold;
+	}
+	&__specialities {
+		padding: 0 1rem;
+		&-title {
+			font-weight: bold;
+		}
+	}
+	&__bio {
+		padding: 0 1rem;
+	}
+}

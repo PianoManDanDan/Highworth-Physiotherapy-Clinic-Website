@@ -3,8 +3,10 @@
 
 .footer {
 	// TODO: Fix Footer to bottom of page
-	// TODO: Add background color to differentiate from body?
+	// TODO: Use white Facebook logo instead of blue
 	padding-top: 2rem;
+	background: linear-gradient(180deg, color(homepage, hpc-blue, 3), color(homepage, hpc-gray, 1));
+	color: color(homepage, hpc-white, 1);
 
 	&__social-media {
 		display: flex;
@@ -17,6 +19,7 @@
 	&__regulatory-bodies {
 		a {
 			text-decoration: none;
+			color: color(homepage, hpc-white, 1);
 		}
 
 		li {
