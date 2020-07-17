@@ -1,6 +1,8 @@
 import React from 'react';
 import { PageHeading } from '../components/PageHeading/src';
 import { PageSubHeading } from '../components/PageSubHeading/src';
+import { OpeningHours } from '../components/OpeningHours/src';
+import { openingHoursData } from './data';
 
 export const Contact: React.FC<{}> = () => {
 	document.title = 'Contact Us | Highworth Physiotherapy Clinic';
@@ -26,31 +28,7 @@ export const Contact: React.FC<{}> = () => {
 							/>
 						</div>
 					</div>
-					<div className="opening-hours">
-						<PageSubHeading text="Opening Hours" />
-						<div className="opening-hours__table">
-							<div className="row">
-								<div className="col-sm-6">Monday</div>
-								<div className="col-sm-6">9:00 - 17:00</div>
-							</div>
-							<div className="row">
-								<div className="col-sm-6">Tuesday</div>
-								<div className="col-sm-6">9:00 - 16:00</div>
-							</div>
-							<div className="row">
-								<div className="col-sm-6">Wednesday</div>
-								<div className="col-sm-6">9:00 - 15:00</div>
-							</div>
-							<div className="row">
-								<div className="col-sm-6">Thursday</div>
-								<div className="col-sm-6">9:00 - 16:30</div>
-							</div>
-							<div className="row">
-								<div className="col-sm-6">Friday</div>
-								<div className="col-sm-6">9:00 - 16:00</div>
-							</div>
-						</div>
-					</div>
+					<OpeningHours {...openingHoursData} />
 				</div>
 			</div>
 		</div>
