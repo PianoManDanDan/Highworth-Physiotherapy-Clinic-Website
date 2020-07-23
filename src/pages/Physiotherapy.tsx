@@ -174,65 +174,7 @@ export const Physiotherapy: React.FC<{}> = () => {
 								foot with collapsed arch; 3. Over arched foot; 4. Patient with
 								excess pronation commonly known as flat feet.
 							</p>
-							{/* Add images */}
-						</div>
-					</div>
-
-					<div>
-						<PageSubHeading text="Glossary of initials" />
-						<div>
-							<h3>
-								MCSP - Member of the Chartered Society of Physiotherapists
-							</h3>
-							<p>
-								To become CSP registered you must have completed a recognised
-								degree course in physiotherapy. Membership of the CSP also gives
-								the physiotherapist essential insurance to practice. Your
-								physiotherapist MUST be a member of the CSP to practice
-								physiotherapy.
-							</p>
-						</div>
-						<div>
-							<h3>HCPC - Health and Care Professions Council</h3>
-							<p>
-								The Health and Care Professions Council controls a number of
-								health professions and police the quality of treatments the
-								professions give. Your physiotherapist MUST be a member of the
-								HCPC to practice physiotherapy.
-							</p>
-						</div>
-						<div>
-							<h3>
-								AACP - Acupuncture Association of Chartered Physiotherapists
-							</h3>
-							<p>
-								Some physiotherapists use acupuncture as a treatment for pain
-								relief. They will have had post graduate training in
-								acupuncture.
-							</p>
-						</div>
-						<div>
-							<h3>
-								ACPAT - Association of Chartered Physiotherapists in Animal
-								Therapy
-							</h3>
-							<p>
-								Some physiotherapists have undertaken further training to become
-								category A members of ACPAT. These physiotherapists are allowed
-								to treat animals referred by a vet. These are usually horses and
-								dogs but can include cows, sheep and pigs or indeed any mammal.
-							</p>
-						</div>
-						<div>
-							<h3>RAMP - Register of Animal Musculoskeletal Practitioners</h3>
-							<p>
-								RAMP is a voluntary register of animal musculoskeletal
-								professionals (including Physiotherapists, Chiropractors and
-								Osteopaths) with a goal of maintaining a gold standard in the
-								musculoskeletal treatment of animals. The register is designed
-								to provide vets and owners with a list of professionals that
-								have shown competency in their field.
-							</p>
+							{/* TODO: Add images */}
 						</div>
 					</div>
 				</div>

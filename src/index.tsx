@@ -12,6 +12,7 @@ import {
 	Facilities,
 	People,
 	Physiotherapy,
+	Faqs,
 } from './pages';
 import { Banner } from './components/Banner/src';
 import { Footer } from './components/Footer/src';
@@ -40,6 +41,9 @@ ReactDOM.render(
 				</Route>
 				<Route exact path="/physiotherapy">
 					<Physiotherapy />
+				</Route>
+				<Route exact path="/faqs">
+					<Faqs />
 				</Route>
 				<Route>
 					<Error />

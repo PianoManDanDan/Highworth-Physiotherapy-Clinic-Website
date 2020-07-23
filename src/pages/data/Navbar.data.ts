@@ -26,6 +26,10 @@ const navbarLinks: NavbarLink[] = [
 		href: '/physiotherapy',
 	},
 	{
+		text: 'FAQs',
+		href: '/faqs',
+	},
+	{
 		text: 'Contact Us',
 		href: '/contact',
 	},
