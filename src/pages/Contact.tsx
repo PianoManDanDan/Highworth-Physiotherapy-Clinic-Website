@@ -24,6 +24,7 @@ export const Contact: React.FC<{}> = () => {
 								allowFullScreen
 								frameBorder={0}
 								aria-hidden={false}
+								// eslint-disable-next-line jsx-a11y/no-noninteractive-tabindex
 								tabIndex={0}
 							/>
 						</div>
