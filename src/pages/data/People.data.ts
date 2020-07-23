@@ -55,7 +55,6 @@ export const peopleData: ProfileProps[] = [
 		qualification: 'MCSP',
 		yearQualified: 1994,
 		specialities: [
-			'Acupuncture',
 			'Pilates',
 			'Backs',
 			'Necks',
