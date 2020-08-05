@@ -5,7 +5,13 @@
 	// TODO: Fix Footer to bottom of page
 	// TODO: Use white Facebook logo instead of blue
 	padding-top: 2rem;
-	background: linear-gradient(180deg, color(homepage, hpc-blue, 3), color(homepage, hpc-gray, 1));
+	border-top: solid 20px;
+	// border-image-source: linear-gradient(90deg, color(homepage, hpc-blue, 2) 0%, color(homepage, hpc-white, 1) 100%);
+	border-image: linear-gradient(0deg, color(homepage, hpc-blue, 2), color(homepage, hpc-white, 2)) 100% 0;
+	border-bottom: 0;
+	border-left: 0;
+	border-right: 0;
+	background: linear-gradient(180deg, color(homepage, hpc-blue, 2), color(homepage, hpc-gray, 1));
 	color: color(homepage, hpc-white, 1);
 
 	&__social-media {
