@@ -1,12 +1,19 @@
 @import '../../../globalStyles/colors';
+@import '../../../globalStyles/sizes';
 
 .profile {
 
+	display: flex;
+	@include mediaQueryFor(small, max) {
+		flex-direction: column;
+	}
+
 	&__image {
-		display: inline-block;
 		padding: 1rem;
+		display: flex;
 		img {
 			height: 15rem;
+			margin: auto;
 		}
 	}
 

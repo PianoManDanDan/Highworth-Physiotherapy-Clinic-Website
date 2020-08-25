@@ -12,35 +12,41 @@ export const Profile: React.FC<ProfileProps> = ({
 	bio,
 }) => {
 	return (
-		<div className="profile">
-			<div className="profile__image">
-				<img
-					src={image?.src || defaultImage}
-					alt={image?.altText || 'Image not yet available'}
-				/>
-			</div>
-			<div className="profile__heading">
-				<div className="profile__name">
-					{name} {qualification ? qualification + '.' : null}
+		<div className="app-content-container">
+			<div className="profile">
+				<div className="col-xs-12 col-md-2">
+					<div className="profile__image">
+						<img
+							src={image?.src || defaultImage}
+							alt={image?.altText || 'Image not yet available'}
+						/>
+					</div>
 				</div>
-				{yearQualified ? (
-					<div className="profile__qualification-year">
-						Qualified {yearQualified}
+				<div className="col-xs-12 col-md-10">
+					<div className="profile__heading">
+						<div className="profile__name">
+							{name} {qualification ? qualification + '.' : null}
+						</div>
+						{yearQualified ? (
+							<div className="profile__qualification-year">
+								Qualified {yearQualified}
+							</div>
+						) : null}
 					</div>
-				) : null}
-			</div>
-			<div className="profile__body">
-				{specialities ? (
-					<div className="profile__specialities">
-						<span className="profile__specialities-title">Speciality:</span>{' '}
-						{specialities.join(', ')}
+					<div className="profile__body">
+						{specialities ? (
+							<div className="profile__specialities">
+								<span className="profile__specialities-title">Speciality:</span>{' '}
+								{specialities.join(', ')}
+							</div>
+						) : null}
+						<div className="profile__bio">
+							{bio.map((paragraph) => (
+								// eslint-disable-next-line react/jsx-key
+								<p>{paragraph}</p>
+							))}
+						</div>
 					</div>
-				) : null}
-				<div className="profile__bio">
-					{bio.map((paragraph) => (
-						// eslint-disable-next-line react/jsx-key
-						<p>{paragraph}</p>
-					))}
 				</div>
 			</div>
 		</div>
