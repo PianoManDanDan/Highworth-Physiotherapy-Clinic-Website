@@ -2,10 +2,10 @@
 @import '../../../globalStyles/sizes';
 
 .footer {
-	// TODO: Fix Footer to bottom of page
 	// TODO: Use white Facebook logo instead of blue
+	margin-top: 2rem;
 	padding-top: 2rem;
-	border-top: solid 20px;
+	border-top: solid 2rem;
 	// border-image-source: linear-gradient(90deg, color(homepage, hpc-blue, 2) 0%, color(homepage, hpc-white, 1) 100%);
 	border-image: linear-gradient(0deg, color(homepage, hpc-blue, 2), color(homepage, hpc-white, 2)) 100% 0;
 	border-bottom: 0;
