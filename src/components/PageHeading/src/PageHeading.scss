@@ -1,0 +1,10 @@
+@import '../../../globalStyles/fonts';
+@import '../../../globalStyles/colors';
+
+.page-heading {
+	&__text {
+		@include headerFont();
+		color: color(homepage, hpc-blue, 1);
+		font-size: 2.5rem;
+	}
+}

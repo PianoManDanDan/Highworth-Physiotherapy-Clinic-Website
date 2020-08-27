@@ -32,3 +32,8 @@ body {
 .page {
 	flex: 1 0 auto;
 }
+
+h3 {
+	@include bodyFont();
+	font-weight: bold;
+}

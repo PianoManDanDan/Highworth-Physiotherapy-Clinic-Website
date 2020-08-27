@@ -23,7 +23,7 @@ import './PageSubHeading.scss';
 export const PageSubHeading: React.FC<PageSubHeadingProps> = ({ text }) => {
 	return (
 		<div className="page-subheading">
-			<h2>{text}</h2>
+			<h2 className="page-subheading__text">{text}</h2>
 		</div>
 	);
 };
