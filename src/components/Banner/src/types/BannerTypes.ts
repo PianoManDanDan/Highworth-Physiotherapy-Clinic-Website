@@ -1,11 +1,13 @@
 import { NavbarProps } from '../subcomponents/Navbar/src';
 
+export type telephoneProps = {
+	text: string;
+	href: string;
+};
+
 export type BannerProps = {
 	name: string;
 	address: string;
-	telephone: {
-		text: string;
-		href: string;
-	};
+	telephone: telephoneProps;
 	navbarLinks: NavbarProps;
 };
