@@ -9,3 +9,6 @@ export default {
 export const Story = () => {
 	return <Map />;
 };
+Story.parameters = {
+	controls: { hideNoControlsWarning: true },
+};

@@ -1,16 +1,14 @@
 import React from 'react';
-import { text } from '@storybook/addon-knobs';
 import { PageHeading, PageHeadingProps } from '../src';
 
-const getPageHeadingProps = (): PageHeadingProps => ({
-	heading: text('Heading', 'Page Heading'),
-});
-
 export default {
-	title: 'PageHeading',
+	title: 'Page Heading',
 	component: PageHeading,
 };
 
-export const Story = () => {
-	return <PageHeading {...getPageHeadingProps()} />;
+export const Story = (args: PageHeadingProps) => {
+	return <PageHeading {...args} />;
+};
+Story.args = {
+	heading: 'Page Heading',
 };
