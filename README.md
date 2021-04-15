@@ -10,5 +10,5 @@
 - [ ] Set up testing (install deps and add jest config - see [here](https://github.com/vercel/next.js/tree/canary/examples/with-typescript-eslint-jest))
 - [x] Set up storybook
 - [x] Set up docker
-- [ ] Set up startup.sh
+- [x] Set up startup.sh
 - [ ] Develop app
