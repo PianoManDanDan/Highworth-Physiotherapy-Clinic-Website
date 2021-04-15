@@ -1,8 +1,0 @@
-@import '../../../globalStyles/fonts';
-
-.page-subheading {
-	&__text {
-		@include headerFont();
-		font-size: 1.8rem;
-	}
-}
