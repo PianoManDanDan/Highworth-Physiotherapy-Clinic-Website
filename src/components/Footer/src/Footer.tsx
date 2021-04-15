@@ -1,7 +1,7 @@
 import React from 'react';
 import { FooterProps } from './types';
 import './Footer.scss';
-import facebookLogo from '../../../../assets/logos/f_logo.png';
+import facebookLogo from '../../../../assets/logos/f_logo-w.png';
 
 // TODO: Put telephone link in bottom
 export const Footer: React.FC<FooterProps> = ({ regulatoryBodyLinks }) => {
