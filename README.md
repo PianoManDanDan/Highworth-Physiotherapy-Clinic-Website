@@ -3,7 +3,7 @@
 # Todo List
 
 - [x] Install basic deps
-- [ ] Set up `next.config.js`
+- [x] Set up `next.config.js`
 - [x] Set up typescript
 - [ ] Add plopfile and .hbs template files for pages
 - [ ] Add plopfile and .hbs template files for components
