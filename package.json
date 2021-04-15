@@ -1,0 +1,32 @@
+{
+  "name": "highworth-physio-clinic-next-app",
+  "version": "0.1.0",
+  "author": "Daniel Martin",
+  "description": "NextJS app for Highworth Physiotherapy Clinic Website",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next build && next start",
+    "export": "next build && next export"
+  },
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "next": "^10.1.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@storybook/addon-actions": "^6.2.7",
+    "@storybook/addon-essentials": "^6.2.7",
+    "@storybook/addon-links": "^6.2.7",
+    "@storybook/react": "^6.2.7",
+    "@types/classnames": "^2.2.11",
+    "@types/node": "^14.14.37",
+    "@types/react": "^17.0.3",
+    "babel-loader": "^8.2.2",
+    "plop": "^2.7.4",
+    "sass": "^1.32.8",
+    "typescript": "^4.2.4"
+  }
+}

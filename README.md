@@ -2,7 +2,7 @@
 
 # Todo List
 
-- [ ] Install basic deps
+- [x] Install basic deps
 - [ ] Set up `next.config.js`
 - [ ] Add plopfile and .hbs template files for pages
 - [ ] Add plopfile and .hbs template files for components
