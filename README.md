@@ -9,5 +9,6 @@
 - [ ] Add plopfile and .hbs template files for components
 - [ ] Set up testing (install deps and add jest config - see [here](https://github.com/vercel/next.js/tree/canary/examples/with-typescript-eslint-jest))
 - [x] Set up storybook
-- [ ] Set up docker/startup.sh
+- [x] Set up docker
+- [ ] Set up startup.sh
 - [ ] Develop app

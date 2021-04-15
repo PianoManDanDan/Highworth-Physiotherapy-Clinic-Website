@@ -1,0 +1,26 @@
+version: '3.5'
+
+services:
+  storybook:
+    image: node:15-alpine
+    command: ['npm', 'run', 'storybook']
+    ports: 
+      - 6006:6006
+    working_dir: /usr/src/app
+    volumes: 
+      - ./:/usr/src/app
+
+  dev-server:
+    image: node:15-alpine
+    command: ['npm', 'run', 'dev']
+    ports: 
+      - 3000:3000
+    working_dir: /usr/src/app
+    volumes: 
+      - ./:/usr/src/app
+  
+  node:
+    image: node:15-alpine
+    working_dir: /usr/next-app
+    volumes:
+      - ./:/usr/src/app
