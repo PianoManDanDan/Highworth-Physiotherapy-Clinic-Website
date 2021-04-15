@@ -17,19 +17,19 @@ export const OpeningHours: React.FC<OpeningHoursProps> = ({
 						</div>
 					</div>
 				))}
+				{closedAtWeekend ? (
+					<div className="opening-hours__table__weekend">
+						<div className="row">
+							<div className="col-sm-6">Saturday</div>
+							<div className="col-sm-6">Closed</div>
+						</div>
+						<div className="row">
+							<div className="col-sm-6">Sunday</div>
+							<div className="col-sm-6">Closed</div>
+						</div>
+					</div>
+				) : null}
 			</div>
-			{closedAtWeekend ? (
-				<div className="weekend">
-					<div className="row">
-						<div className="col-sm-6">Saturday</div>
-						<div className="col-sm-6">Closed</div>
-					</div>
-					<div className="row">
-						<div className="col-sm-6">Sunday</div>
-						<div className="col-sm-6">Closed</div>
-					</div>
-				</div>
-			) : null}
 		</div>
 	);
 };
