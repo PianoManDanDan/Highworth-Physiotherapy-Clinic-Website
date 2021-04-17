@@ -19,6 +19,11 @@ module.exports = (plop) => {
         path: 'pages/{{lowerCase pagePath}}.tsx',
         templateFile: 'plop-templates/Page/Page.tsx.hbs',
       },
+      {
+        type: 'add',
+        path: 'tests/pages/{{lowerCase pagePath}}.test.tsx',
+        templateFile: 'plop-templates/Page/Page.test.tsx.hbs',
+      }
     ],
   });
 }
