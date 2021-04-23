@@ -1,0 +1,8 @@
+@use 'sass:map';
+@use '../variables/breakpoints';
+
+@mixin media-query($viewportSize) {
+  @media screen and (min-width: map.get(breakpoints.$sizes, $viewportSize)) {
+    @content;
+  };
+};

@@ -1,0 +1,8 @@
+@use 'sass:map';
+@use '../variables/colors' as *;
+
+@function color($color, $variant: primary) {
+    $color-base: map.get($colors, $color);
+    $color-variant: map.get($color-base, $variant);
+    @return $color-variant;
+};
