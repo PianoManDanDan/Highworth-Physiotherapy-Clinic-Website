@@ -2,6 +2,7 @@
 
 # Todo List
 
+## Set up
 - [x] Install basic deps
 - [x] Set up `next.config.js`
 - [x] Set up typescript
@@ -11,4 +12,15 @@
 - [x] Set up storybook
 - [x] Set up docker
 - [x] Set up startup.sh
-- [ ] Develop app
+
+## Development
+- [ ] Add photos for everyone:
+  - [ ] Sonya
+  - [ ] Emma - use new photo
+  - [ ] Fiona
+  - [ ] Diane
+  - [ ] Shani
+  - [ ] Joe
+  - [ ] Steve
+  - [ ] Debbie
+  - [ ] Daniel
