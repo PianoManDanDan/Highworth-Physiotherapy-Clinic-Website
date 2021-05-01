@@ -1,12 +1,16 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { getPage } from 'next-page-tester';
 
 import { {{pascalCase name}} } from '../../pages/{{ lowerCase pagePath }}';
 
 describe('{{pascalCase name}} Page', () => {
-  it('matches the snapshot', () => {
-    const { asFragment } = render(<{{pascalCase name}} />);
+  it('matches the snapshot', async () => {
+    const { render } = await getPage({
+      route: '/{{lowerCase pagePath}}',
+    });
 
-    expect(asFragment()).toMatchSnapshot();
+    const page = render();
+
+    expect(page).toMatchSnapshot();
   });
 });
