@@ -25,7 +25,7 @@ module.exports = {
     '<rootDir>stories/',
   ],
   moduleNameMapper: {
-    '\\.(s?css|sass|less)$': 'identity-obj-proxy',
+    '\\.(s?css|sass|less)$': '<rootDir>/tests/__mocks__/styleMock.js',
     '\\.(gif|ttf|eot|svg|png|jpe?g)$': '<rootDir>/tests/__mocks__/fileMock.js',
   }
 }
