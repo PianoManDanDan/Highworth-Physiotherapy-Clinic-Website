@@ -63,8 +63,13 @@ module.exports = (plop) => {
       },
       {
         type: 'add',
-        path: 'tests/components/{{pascalCase name}}.test.tsx',
+        path: 'tests/components/unit-tests/{{pascalCase name}}.test.tsx',
         templateFile: 'plop-templates/Component/Component.test.tsx.hbs',
+      },
+      {
+        type: 'add',
+        path: 'tests/components/snapshot-tests/{{pascalCase name}}.snapshot.test.tsx',
+        templateFile: 'plop-templates/Component/Component.snapshot.test.tsx.hbs',
       },
     ],
   });
