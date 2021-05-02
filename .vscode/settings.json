@@ -24,4 +24,14 @@
         "editor.defaultFormatter": "dbaeumer.vscode-eslint"
 	},
 	"editor.renameOnType": true,
+	"cSpell.words": [
+		"ACPAT",
+		"Highworth",
+		"MCSP",
+		"Mobilisations",
+		"Speciality",
+		"specialises",
+		"specialising",
+		"specialities"
+	],
 }
