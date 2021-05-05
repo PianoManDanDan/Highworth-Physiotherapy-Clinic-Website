@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Component snapshot test it renders all of the social media links and regulatory bodies correctly 1`] = `
+<DocumentFragment>
+  <footer>
+    <div>
+      <p>
+        Find us on Facebook
+      </p>
+      <a
+        href="https://www.facebook.com/HighworthPhysio/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <div
+          style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+        >
+          <div
+            style="box-sizing: border-box; display: block; max-width: 100%;"
+          >
+            <img
+              alt=""
+              aria-hidden="true"
+              role="presentation"
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+              style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+            />
+          </div>
+          <noscript />
+          <img
+            alt="Find us on Facebook"
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+          />
+        </div>
+      </a>
+    </div>
+    <div>
+      <p>
+        All of our physios are registered with at least one of the following regulatory bodies:
+      </p>
+      <ul>
+        <li>
+          <a
+            href="https://www.csp.org.uk/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <abbr
+              title="Chartered Society of Physiotherapists"
+            >
+              CSP
+            </abbr>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.hcpc-uk.org/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <abbr
+              title="Health and Care Professions Council"
+            >
+              HCPC
+            </abbr>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.physiofirst.org.uk/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Physio First
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.aacp.org.uk/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <abbr
+              title="Acupuncture Association of Chartered Physiotherapists"
+            >
+              AACP
+            </abbr>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.acpat.org/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <abbr
+              title="Association of Chartered Physiotherapists in Animal Therapy"
+            >
+              ACPAT
+            </abbr>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.rampregister.org/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <abbr
+              title="Register of Animal Musculoskeletal Practitioners"
+            >
+              RAMP
+            </abbr>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</DocumentFragment>
+`;
