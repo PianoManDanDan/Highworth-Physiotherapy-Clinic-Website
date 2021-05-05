@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FAQ Page matches the snapshot 1`] = `
+Object {
+  "nextRoot": <div
+    id="__next"
+  >
+    <header>
+      <div
+        style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
+      >
+        <div
+          style="box-sizing:border-box;display:block;max-width:100%"
+        >
+          <img
+            alt=""
+            aria-hidden="true"
+            role="presentation"
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAiIGhlaWdodD0iMTI4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            style="max-width:100%;display:block;margin:0;border:none;padding:0"
+          />
+        </div>
+        <noscript>
+          <img
+            alt="Highworth Physiotherapy Clinic"
+            decoding="async"
+            src="/assets/logos/hpc.png"
+            srcset="/_next/image?url=%2Fassets%2Flogos%2Fhpc.png&w=32&q=75 1x, /_next/image?url=%2Fassets%2Flogos%2Fhpc.png&w=64&q=75 2x"
+            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
+          />
+        </noscript>
+        <img
+          alt="Highworth Physiotherapy Clinic"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
+        />
+      </div>
+      <h1>
+        Highworth Physiotherapy Clinic
+      </h1>
+      <address>
+        <h2>
+          tel: 
+          <a
+            href="tel:+441793763814"
+          >
+            01793 763814
+          </a>
+        </h2>
+      </address>
+      <nav>
+        <a
+          href="/"
+        >
+          Home
+        </a>
+        <a
+          href="/facilities"
+        >
+          Facilities
+        </a>
+        <a
+          href="/physiotherapy"
+        >
+          Physiotherapy
+        </a>
+        <a
+          href="/animals"
+        >
+          Animals
+        </a>
+        <a
+          href="/meet-the-team"
+        >
+          Meet the Team
+        </a>
+        <a
+          href="/faq"
+        >
+          FAQ's
+        </a>
+        <a
+          href="/contact"
+        >
+          Contact Us
+        </a>
+      </nav>
+    </header>
+    <main>
+      <h1>
+        FREQUENTLY ASKED QUESTIONS
+      </h1>
+      <h2>
+        How long will my appointment be?
+      </h2>
+      <p>
+        An initial appointment will last 45 minutes with follow up appointments being half an hour. Please note that this includes the time taken by the physio to write up your notes.
+      </p>
+      <h2>
+        What do all the acronyms mean?
+      </h2>
+      <p>
+        Across the website, you may have seen several titles and acronyms used to describe governing bodies and qualifications. Listed below are the various initials used throughout the website. More information on each of the organisations can be found on their websites, linked at the bottom of each page.
+      </p>
+      <ul>
+        <li>
+          <h3>
+            MCSP - Member of the Chartered Society of Physiotherapists
+          </h3>
+          <p>
+            The CSP regulates and monitors physiotherapy practice in the UK. To be registered with the CSP, your physiotherapist must have completed a recognised degree course in physiotherapy. Membership to the CSP also gives your physiotherapy insurance to practice. CSP membership is compulsory for anyone practicing physiotherapy in the UK.
+          </p>
+        </li>
+        <li>
+          <h3>
+            HCPC - Health and Care Professions Council
+          </h3>
+          <p>
+            The HCPC controls and monitors several different healthcare professions and police the quality of treatments offered. HCPC membership is compulsory for your physiotherapist to practice in the UK.
+          </p>
+        </li>
+        <li>
+          <h3>
+            ACPAT - Association of Chartered Physiotherapists in Animal Therapy
+          </h3>
+          <p>
+            Some physiotherapists have taken on further study to treat animals referred to them by a vet. ACPAT is the organisation that regulates and certifies this training. Most commonly, ACPAT registered physiotherapists treat horses and dogs, but their training allows them to treat any mammals, including cats, cows, sheep and pigs.
+          </p>
+        </li>
+        <li>
+          <h3>
+            RAMP - Register of Animal Musculoskeletal Practitioners
+          </h3>
+          <p>
+            RAMP is a voluntary register of animal musculoskeletal healthcare practitioners, including chiropractors, osteopaths and physiotherapists. It is aimed to help vets and the general public to choose qualified and competent practitioners for the treatment of their animals.
+          </p>
+        </li>
+        <li>
+          <h3>
+            AACP - Acupuncture Association of Chartered Physiotherapists
+          </h3>
+          <p>
+            Some physiotherapists use acupuncture as a form of treatment for pain relief. In order to administer acupuncture, these physiotherapists will need to have undertaken postgraduate training in acupuncture. The AACP regulate and provide this training.
+          </p>
+        </li>
+      </ul>
+    </main>
+    <footer>
+      <div>
+        <p>
+          Find us on Facebook
+        </p>
+        <a
+          href="https://www.facebook.com/HighworthPhysio/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
+          >
+            <div
+              style="box-sizing:border-box;display:block;max-width:100%"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                role="presentation"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                style="max-width:100%;display:block;margin:0;border:none;padding:0"
+              />
+            </div>
+            <noscript>
+              <img
+                alt="Find us on Facebook"
+                decoding="async"
+                src="/assets/logos/facebook.png"
+                srcset="/_next/image?url=%2Fassets%2Flogos%2Ffacebook.png&w=32&q=75 1x, /_next/image?url=%2Fassets%2Flogos%2Ffacebook.png&w=64&q=75 2x"
+                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
+              />
+            </noscript>
+            <img
+              alt="Find us on Facebook"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
+            />
+          </div>
+        </a>
+      </div>
+      <div>
+        <p>
+          All of our physios are registered with at least one of the following regulatory bodies:
+        </p>
+        <ul>
+          <li>
+            <a
+              href="https://www.csp.org.uk/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <abbr
+                title="Chartered Society of Physiotherapists"
+              >
+                CSP
+              </abbr>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.hcpc-uk.org/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <abbr
+                title="Health and Care Professions Council"
+              >
+                HCPC
+              </abbr>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.physiofirst.org.uk/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Physio First
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.aacp.org.uk/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <abbr
+                title="Acupuncture Association of Chartered Physiotherapists"
+              >
+                AACP
+              </abbr>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.acpat.org/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <abbr
+                title="Association of Chartered Physiotherapists in Animal Therapy"
+              >
+                ACPAT
+              </abbr>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.rampregister.org/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <abbr
+                title="Register of Animal Musculoskeletal Practitioners"
+              >
+                RAMP
+              </abbr>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>,
+}
+`;

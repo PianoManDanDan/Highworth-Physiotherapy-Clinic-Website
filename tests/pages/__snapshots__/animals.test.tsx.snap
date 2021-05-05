@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Animals Page matches the snapshot 1`] = `
+Object {
+  "nextRoot": <div
+    id="__next"
+  >
+    <header>
+      <div
+        style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
+      >
+        <div
+          style="box-sizing:border-box;display:block;max-width:100%"
+        >
+          <img
+            alt=""
+            aria-hidden="true"
+            role="presentation"
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAiIGhlaWdodD0iMTI4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            style="max-width:100%;display:block;margin:0;border:none;padding:0"
+          />
+        </div>
+        <noscript>
+          <img
+            alt="Highworth Physiotherapy Clinic"
+            decoding="async"
+            src="/assets/logos/hpc.png"
+            srcset="/_next/image?url=%2Fassets%2Flogos%2Fhpc.png&w=32&q=75 1x, /_next/image?url=%2Fassets%2Flogos%2Fhpc.png&w=64&q=75 2x"
+            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
+          />
+        </noscript>
+        <img
+          alt="Highworth Physiotherapy Clinic"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
+        />
+      </div>
+      <h1>
+        Highworth Physiotherapy Clinic
+      </h1>
+      <address>
+        <h2>
+          tel: 
+          <a
+            href="tel:+441793763814"
+          >
+            01793 763814
+          </a>
+        </h2>
+      </address>
+      <nav>
+        <a
+          href="/"
+        >
+          Home
+        </a>
+        <a
+          href="/facilities"
+        >
+          Facilities
+        </a>
+        <a
+          href="/physiotherapy"
+        >
+          Physiotherapy
+        </a>
+        <a
+          href="/animals"
+        >
+          Animals
+        </a>
+        <a
+          href="/meet-the-team"
+        >
+          Meet the Team
+        </a>
+        <a
+          href="/faq"
+        >
+          FAQ's
+        </a>
+        <a
+          href="/contact"
+        >
+          Contact Us
+        </a>
+      </nav>
+    </header>
+    <main>
+      <h1>
+        ANIMAL THERAPY
+      </h1>
+      <p>
+        Animals also benefit from physiotherapy when they are suffering from muscular skeletal or neurological problems. This could be following a road traffic accident, surgery or other injury. The basic anatomy and physiology of animals is very similar to that of humans and many of the techniques and equipment used is the same. There are differences, but not as many as you may think!
+      </p>
+      <p>
+        The most common animals treated are dogs, cats and horses, usually for sporting injuries or following surgery, road traffic accidents or for chronic pain from degenerative joint disease. However even cows have been successfully treated after they have injured themselves.
+      </p>
+      <p>
+        There are around 300 physiotherapists in the UK who are ACPAT members (Association of Chartered Physiotherapists in Animal Therapy) and are qualified to treat animals. Currently two of us at Highworth Physiotherapy Clinic are members. Both are also registered with RAMP (The Register of Animal Musculoskeletal Practitioners) which monitors industry standards and acts as a voluntary regulator. Many animal insurance policies also include cover for physiotherapy treatment, although you should check before making an appointment.
+      </p>
+      <h2>
+        The Veterinary Surgeons Act 1966
+      </h2>
+      <p>
+        The Veterinary Surgeons act of 1966 states that only a veterinary surgeon, or someone authorised by one, can treat an animal. It is therefore illegal for a physiotherapist to treat an animal without prior consent from a vet. Most of the vets in this area know us and are more than happy to refer your pet to us if they believe physiotherapy is the appropriate course of treatment.
+      </p>
+    </main>
+    <footer>
+      <div>
+        <p>
+          Find us on Facebook
+        </p>
+        <a
+          href="https://www.facebook.com/HighworthPhysio/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0"
+          >
+            <div
+              style="box-sizing:border-box;display:block;max-width:100%"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                role="presentation"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                style="max-width:100%;display:block;margin:0;border:none;padding:0"
+              />
+            </div>
+            <noscript>
+              <img
+                alt="Find us on Facebook"
+                decoding="async"
+                src="/assets/logos/facebook.png"
+                srcset="/_next/image?url=%2Fassets%2Flogos%2Ffacebook.png&w=32&q=75 1x, /_next/image?url=%2Fassets%2Flogos%2Ffacebook.png&w=64&q=75 2x"
+                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
+              />
+            </noscript>
+            <img
+              alt="Find us on Facebook"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
+            />
+          </div>
+        </a>
+      </div>
+      <div>
+        <p>
+          All of our physios are registered with at least one of the following regulatory bodies:
+        </p>
+        <ul>
+          <li>
+            <a
+              href="https://www.csp.org.uk/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <abbr
+                title="Chartered Society of Physiotherapists"
+              >
+                CSP
+              </abbr>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.hcpc-uk.org/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <abbr
+                title="Health and Care Professions Council"
+              >
+                HCPC
+              </abbr>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.physiofirst.org.uk/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Physio First
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.aacp.org.uk/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <abbr
+                title="Acupuncture Association of Chartered Physiotherapists"
+              >
+                AACP
+              </abbr>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.acpat.org/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <abbr
+                title="Association of Chartered Physiotherapists in Animal Therapy"
+              >
+                ACPAT
+              </abbr>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.rampregister.org/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <abbr
+                title="Register of Animal Musculoskeletal Practitioners"
+              >
+                RAMP
+              </abbr>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>,
+}
+`;
