@@ -1,8 +1,7 @@
 import React from 'react';
 import cn from 'classnames';
 import Image from 'next/image';
-import Link from 'next/link';
-import { NavMenu } from '../NavMenu';
+import { NavMenu, NavMenuItem } from '../NavMenu';
 import styles from './Header.module.scss';
 
 export const Header: React.FC<{}> = () => {
@@ -20,27 +19,13 @@ export const Header: React.FC<{}> = () => {
         <h2>tel: <a href="tel:+441793763814">01793 763814</a></h2>
       </address>
       <NavMenu>
-        <Link href='/'>
-          <a>Home</a>
-        </Link>
-        <Link href='/facilities'>
-          <a>Facilities</a>
-        </Link>
-        <Link href='/physiotherapy'>
-          <a>Physiotherapy</a>
-        </Link>
-        <Link href='/animals'>
-          <a>Animals</a>
-        </Link>
-        <Link href='/meet-the-team'>
-          <a>Meet the Team</a>
-        </Link>
-        <Link href='/faq'>
-          <a>FAQ's</a>
-        </Link>
-        <Link href='/contact'>
-          <a>Contact Us</a>
-        </Link>
+        <NavMenuItem text='Home' href='/' />
+        <NavMenuItem text='Facilities' href='/facilities' />
+        <NavMenuItem text='Physiotherapy' href='/physiotherapy' />
+        <NavMenuItem text='Animals' href='/animals' />
+        <NavMenuItem text='Meet the Team' href='/meet-the-team' />
+        <NavMenuItem text="FAQ's" href='/faq' />
+        <NavMenuItem text='Contact Us' href='/contact' />
       </NavMenu>
     </header>
   );

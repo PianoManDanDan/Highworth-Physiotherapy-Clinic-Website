@@ -1,10 +1,11 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
-import { NavMenu } from '../components/NavMenu';
+import { NavMenu, NavMenuItem } from '../components/NavMenu';
 
 export default {
   title: 'Page/Nav Menu',
   component: NavMenu,
+  subcomponents: { NavMenuItem }
 } as Meta;
 
 const Template: Story<{}> = () => (

@@ -1,6 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`NavMenu Component snapshot test it renders the NavMenu element with all of its' children 1`] = `
+exports[`NavMenu Component snapshot test When passed NavMenuItem components as children it renders the NavMenu element with all of its' children 1`] = `
+<DocumentFragment>
+  <nav>
+    <a
+      href="/child-1-href"
+    >
+      Child NavMenuItem 1
+    </a>
+    <a
+      href="/child-2-href"
+    >
+      Child NavMenuItem 2
+    </a>
+    <a
+      href="/child-3-href"
+    >
+      Child NavMenuItem 3
+    </a>
+  </nav>
+</DocumentFragment>
+`;
+
+exports[`NavMenu Component snapshot test When passed ordinary html elements as children it renders the NavMenu element with all of its' children 1`] = `
 <DocumentFragment>
   <nav>
     <p>
