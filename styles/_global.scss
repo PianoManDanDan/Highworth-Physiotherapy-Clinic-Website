@@ -1,17 +1,46 @@
 @use './mixins/reset' as *;
+@use './mixins/media-query' as *;
+@use './variables/fonts';
 
 html, body {
   @include reset;
   height: 100%;
   width: 100%;
-}
+};
 
 #__next {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-}
+};
 
 main {
   flex-grow: 1;
-}
+  margin: auto;
+  max-width: 80%;
+  @include media-query(small) {
+    max-width: 66%
+  };
+  @include media-query(medium) {
+    max-width: 50%;
+  };
+};
+
+h1 {
+  font-family: fonts.$font-family-heading;
+  font-weight: fonts.$font-weight-bold;
+};
+
+h2, h3, h4, h5, h6 {
+  font-family: fonts.$font-family-subheading;
+  font-weight: fonts.$font-weight-bold;
+};
+
+p, div {
+  font-family: fonts.$font-family-body;
+  font-weight: fonts.$font-weight-normal;
+};
+
+a {
+  text-decoration: none;
+};
