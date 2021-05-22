@@ -12,8 +12,8 @@ export const TeamMember: React.FC<Person> = ({
   specialities,
 }) => {
   return (
-    <div>
-      <div>
+    <div className={styles['team-member']}>
+      <div className={styles['team-member__picture']}>
         <Image
           src={image.src}
           alt={image.altText}
@@ -38,6 +38,6 @@ export const TeamMember: React.FC<Person> = ({
       </div>
     </div>
   );
-}
+};
 
 export default TeamMember;

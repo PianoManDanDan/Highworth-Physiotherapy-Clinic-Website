@@ -1,0 +1,20 @@
+@use '../../styles/mixins/media-query' as *;
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+
+  @include media-query(small) {
+    flex-direction: row;
+  };
+
+  &__picture {
+    align-self: center;
+    margin: 0 1rem;
+
+    @include media-query(small) {
+      align-self: flex-start;
+      margin-top: 1.25em;
+    };
+  };
+};
