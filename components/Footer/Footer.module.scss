@@ -1,0 +1,63 @@
+@use '../../styles/mixins/media-query' as *;
+
+.footer {
+  margin-top: 1rem;
+  
+  @include media-query(small) {
+    margin-top: 2rem;
+  };
+  @include media-query(medium) {
+    margin-top: 3rem;
+  };
+
+  &__content-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    max-width: 80%;
+
+    @include media-query(small) {
+      flex-direction: row;
+      max-width: 66%;
+    };
+    @include media-query(medium) {
+      max-width: 50%;
+    };
+
+    & > div {
+      flex-basis: 40%;
+      max-width: 70%;
+      align-self: center;
+      margin: 0 0.5rem;
+
+      @include media-query(small) {
+        align-self: flex-start;
+      };
+    };
+  };
+};
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & > p {
+    display: none;
+
+    @include media-query(small) {
+      display: block;
+    };
+  };
+
+  &__links {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+
+    @include media-query(small) {
+      margin-top: 0;
+    };
+  };
+};
