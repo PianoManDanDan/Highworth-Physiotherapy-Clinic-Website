@@ -4,6 +4,18 @@
 
 @import './layout/layout';
 
+// TODO: HOW TO DO THEMES
+// :root {
+//   /* Your default theme */
+//   background: white;
+//   color: black;
+// };
+
+// [data-theme='dark'] {
+//   background: black;
+//   color: white;
+// };
+
 h1 {
   font-family: fonts.$font-family-heading;
   font-weight: fonts.$font-weight-bold;

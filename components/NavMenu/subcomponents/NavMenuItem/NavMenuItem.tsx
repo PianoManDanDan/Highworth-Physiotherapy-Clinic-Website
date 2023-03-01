@@ -9,7 +9,7 @@ export const NavMenuItem: React.FC<NavMenuItemProps> = ({
 }) => {
   return (
     <Link href={href}>
-      <a>{text}</a>
+      <a className={styles.navMenuItem}>{text}</a>
     </Link>
   );
-}
+};

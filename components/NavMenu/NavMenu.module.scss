@@ -1,0 +1,61 @@
+@use '../../styles/mixins/media-query' as *;
+
+@keyframes example {
+  0% {
+    display: inline;
+    opacity: 1;
+    transform: rotate(0deg);
+  };
+
+  5% {
+    transform: rotate(-10deg);
+  };
+  95% {
+    transform: rotate(190deg);
+  };
+
+  99% {
+    // display: none;
+    width: 24px;
+    height: 24px;
+    opacity: 0;
+    transform: rotate(180deg);
+  };
+  100% {
+    width: 0;
+    height: 0;
+  }
+};
+
+.menu {
+  // display: none;
+  @include media-query(small) {
+    display: flex;
+    width: 80%;
+  };
+  @include media-query(medium) {
+    width: 65%;
+  };
+  @include media-query(large) {
+    width: 50%;
+  };
+
+  &--open {
+    background: red;
+  };
+
+  &__icon {
+    @include media-query(small) {
+      display: none;
+    };
+
+    &--hide {
+      animation-name: example;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: 1;
+      animation-direction: alternate;
+      animation-fill-mode: both;
+    };
+  };
+};

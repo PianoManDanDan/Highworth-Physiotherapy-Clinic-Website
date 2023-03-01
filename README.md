@@ -24,3 +24,4 @@
   - [ ] Steve
   - [ ] Debbie
   - [ ] Daniel
+- [ ] Set up theme colors to work properly

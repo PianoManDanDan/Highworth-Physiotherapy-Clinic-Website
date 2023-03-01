@@ -2,10 +2,10 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { Footer } from '../../../components/Footer';
 
-const mockNextImage = jest.fn(() => <img data-testid='mockNextImage' />);
-jest.mock('next/image', () => ({
+const mockFacebookIcon = jest.fn(() => <svg data-testid='mockFacebookIcon' />);
+jest.mock('react-feather', () => ({
   __esModule: true,
-  default: () => mockNextImage(),
+  Facebook: () => mockFacebookIcon(),
 }));
 
 describe('Footer Component', () => {
@@ -16,8 +16,8 @@ describe('Footer Component', () => {
     );
 
     // Assert
-    expect(screen.getByText(/Facebook/)).toBeInTheDocument();
-    expect(mockNextImage).toHaveBeenCalledTimes(1);
+    expect(screen.getByText(/Social Media/)).toBeInTheDocument();
+    expect(mockFacebookIcon).toHaveBeenCalledTimes(1);
   });
   test.each`
     bodyAbbreviation | bodyName
