@@ -19,11 +19,6 @@ module.exports = (plop) => {
         path: 'pages/{{lowerCase pagePath}}.tsx',
         templateFile: 'plop-templates/Page/Page.tsx.hbs',
       },
-      {
-        type: 'add',
-        path: 'tests/pages/{{lowerCase pagePath}}.test.tsx',
-        templateFile: 'plop-templates/Page/Page.test.tsx.hbs',
-      }
     ],
   });
   plop.setGenerator('Component', {
@@ -65,11 +60,6 @@ module.exports = (plop) => {
         type: 'add',
         path: 'tests/components/unit-tests/{{pascalCase name}}.test.tsx',
         templateFile: 'plop-templates/Component/Component.test.tsx.hbs',
-      },
-      {
-        type: 'add',
-        path: 'tests/components/snapshot-tests/{{pascalCase name}}.snapshot.test.tsx',
-        templateFile: 'plop-templates/Component/Component.snapshot.test.tsx.hbs',
       },
     ],
   });

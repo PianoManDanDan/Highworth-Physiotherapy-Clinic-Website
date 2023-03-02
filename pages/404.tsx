@@ -1,4 +1,3 @@
-import React from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 
@@ -14,7 +13,6 @@ export const PageNotFound = (): JSX.Element => {
           alt='Construction workers building a spine'
           height={448}
           width={336}
-          layout='intrinsic'
         />
         <h1>Oops...</h1>
         <p>

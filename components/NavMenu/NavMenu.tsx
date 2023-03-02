@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import cn from 'classnames';
 import { Menu, X } from 'react-feather';
 import styles from './NavMenu.module.scss';
+import { NavMenuProps } from './NavMenuProps';
 
-export const NavMenu: React.FC<{}> = ({ children }) => {
+export const NavMenu: React.FC<NavMenuProps> = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (

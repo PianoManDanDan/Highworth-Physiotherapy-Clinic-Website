@@ -1,4 +1,3 @@
-import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Phone } from 'react-feather';
@@ -9,22 +8,17 @@ export const Header: React.FC<{}> = () => {
   return (
     <header className={styles.header}>
       <div className={styles['content-wrapper']}>
-        <Link href='/'>
-          <a className={styles.logo}>
-            <Image
-              src='/assets/logos/hpc.png'
-              alt='Highworth Physiotherapy Clinic'
-              height={128}
-              width={30}
-              layout='intrinsic'
-            />
-          </a>
+        <Link href='/' className={styles.logo}>
+          <Image
+            src='/assets/logos/hpc.png'
+            alt='Highworth Physiotherapy Clinic'
+            height={128}
+            width={30}
+          />
         </Link>
         <div className={styles['text-wrapper']}>
           <Link href='/'>
-            <a>
-              <h1 className={styles.title}>Highworth Physiotherapy Clinic</h1>
-            </a>
+            <h1 className={styles.title}>Highworth Physiotherapy Clinic</h1>
           </Link>
           <address>
             <h2>

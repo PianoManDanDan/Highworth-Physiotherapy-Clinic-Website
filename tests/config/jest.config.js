@@ -1,31 +1,29 @@
-module.exports = {
-  rootDir: '../../',
+const nextJest = require('next/jest');
+
+const createJestConfig = nextJest({
+  dir: './', // relative to package.json
+});
+
+const customJestConfig = {
+  rootDir: '../../', // relative to tests/config
+  moduleDirectories: [
+    '<rootDir>/node_modules/',
+    '<rootDir>/'
+  ],
   testPathIgnorePatterns: [
     '<rootDir>/node_modules/',
     '<rootDir>/build-*/',
     '<rootDir>/out/',
   ],
   setupFilesAfterEnv: [
-    '<rootDir>/tests/config/setupTests.js',
+    '<rootDir>/tests/config/jest.setup.js',
   ],
   clearMocks: true,
   collectCoverageFrom: [
-    '**/*.{ts,tsx,js,jsx}',
-    '!**/*.d.ts',
-    '!**/*.{stories,story}*',
-    '!**/build-*/**/*',
-    '!**/node_modules/**',
+    '**components/**/*.{ts,tsx,js,jsx}',
   ],
   coverageDirectory: '<rootDir>/tests/coverage/',
-  coveragePathIgnorePatterns: [
-    '<rootDir>/node_modules/',
-    '<rootDir>/build-*/',
-    '<rootDir>/out/',
-    '<rootDir>/.storybook/',
-    '<rootDir>stories/',
-  ],
-  moduleNameMapper: {
-    '\\.(s?css|sass|less)$': '<rootDir>/tests/__mocks__/styleMock.js',
-    '\\.(gif|ttf|eot|svg|png|jpe?g)$': '<rootDir>/tests/__mocks__/fileMock.js',
-  }
+  testEnvironment: 'jest-environment-jsdom',
 }
+
+module.exports = createJestConfig(customJestConfig);

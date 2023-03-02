@@ -1,10 +1,9 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { NavMenu } from '../../../components/NavMenu';
 
 describe('NavMenu Component', () => {
-  describe('When passed children', () => {
-    test('it renders the children', () => {
+  describe('When passed a single child element', () => {
+    test('it renders the child element', () => {
       // Arrange
       render(
         <NavMenu>
@@ -17,15 +16,19 @@ describe('NavMenu Component', () => {
       expect(screen.getByText('Child element')).toBeInTheDocument();
     });
   });
-  describe('When passed no children', () => {
-    test('it renders an empty nav block', () => {
+  describe('When passed multiple children', () => {
+    test('it renders the children', () => {
       // Arrange
       render(
-        <NavMenu />
+        <NavMenu>
+          <p>Child element</p>
+          <p>Another child element</p>
+        </NavMenu>
       );
 
       // Assert
-      expect(screen.getByRole('navigation')).toBeEmptyDOMElement();
+      expect(screen.getByRole('navigation')).not.toBeEmptyDOMElement();
+      expect(screen.getAllByText('child element', {exact: false})).toHaveLength(2);
     });
   });
 });

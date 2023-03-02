@@ -3,8 +3,12 @@ node_modules
 
 # build files
 .next/
+.swc/
 out/
 build*/
 
 # env files
 **/.env*
+
+# test coverage files
+tests/coverage/

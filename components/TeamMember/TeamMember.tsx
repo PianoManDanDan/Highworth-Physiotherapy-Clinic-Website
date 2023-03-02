@@ -1,4 +1,3 @@
-import React from 'react';
 import Image from 'next/image';
 import { Person } from '../../types';
 import styles from './TeamMember.module.scss';
@@ -19,7 +18,6 @@ export const TeamMember: React.FC<Person> = ({
           alt={image.altText}
           height={160}
           width={160}
-          layout='intrinsic'
         />
       </div>
       <div>
