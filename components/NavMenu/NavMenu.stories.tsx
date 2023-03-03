@@ -1,6 +1,6 @@
 import React from 'react';
 import { StoryObj, Meta } from '@storybook/react';
-import { NavMenu, NavMenuItem } from '../components/NavMenu';
+import { NavMenu, NavMenuItem } from 'components/NavMenu';
 
 export default {
   component: NavMenu,

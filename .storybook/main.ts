@@ -2,8 +2,8 @@ import { StorybookConfig } from "@storybook/nextjs";
 
 const config: StorybookConfig = {
   stories: [
-    "../stories/**/*.mdx",
-    "../stories/**/*.stories.@(js|jsx|ts|tsx)"
+    { directory: "../components/", titlePrefix: "components" },
+    { directory: "../stories/", titlePrefix: "pages" },
   ],
   addons: [
     "@storybook/addon-links",
@@ -16,7 +16,7 @@ const config: StorybookConfig = {
     options: {},
   },
   docs: {
-    autodocs: true,
+    autodocs: "tag",
   },
 };
 

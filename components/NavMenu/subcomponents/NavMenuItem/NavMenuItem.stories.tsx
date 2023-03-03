@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react';
-import { NavMenuItem } from '../components/NavMenu/subcomponents/NavMenuItem';
+import { NavMenuItem } from 'components/NavMenu';
 
 export default { component: NavMenuItem } as Meta;
 

@@ -1,0 +1,10 @@
+import { StoryObj, Meta } from '@storybook/react';
+import { {{pascalCase name}} } from 'pages/{{lowerCase pagePath}}';
+
+export default { component: {{pascalCase name}} } as Meta;
+
+export const {{pascalCase name}}: StoryObj<typeof {{pascalCase name}}> = {
+  parameters: {
+    controls: { hideNoControlsWarning: true },
+  }
+};

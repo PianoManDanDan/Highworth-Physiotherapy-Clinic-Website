@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react';
-import { TeamMember } from '../components/TeamMember';
+import { TeamMember } from 'components/TeamMember';
 
 export default {
   component: TeamMember,

@@ -19,6 +19,11 @@ export default (plop) => {
         path: 'pages/{{lowerCase pagePath}}.tsx',
         templateFile: 'plop-templates/Page/Page.tsx.hbs',
       },
+      {
+        type: 'add',
+        path: 'stories/{{lowerCase pagePath}}.stories.tsx',
+        templateFile: 'plop-templates/Page/Page.stories.tsx.hbs',
+      },
     ],
   });
   plop.setGenerator('Component', {
@@ -53,7 +58,7 @@ export default (plop) => {
       },
       {
         type: 'add',
-        path: 'stories/{{pascalCase name}}.stories.tsx',
+        path: 'components/{{pascalCase name}}/{{pascalCase name}}.stories.tsx',
         templateFile: 'plop-templates/Component/Component.stories.tsx.hbs',
       },
       {

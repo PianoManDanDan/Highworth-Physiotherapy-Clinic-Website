@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react';
-import { Header } from '../components/Header';
+import { Header } from 'components/Header';
 
 export default { component: Header } as Meta;
 
