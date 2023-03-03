@@ -1,19 +1,11 @@
-import React from 'react';
-import { Story, Meta } from '@storybook/react';
-import {
-  NavMenuItem,
-  NavMenuItemProps,
-} from '../components/NavMenu/subcomponents/NavMenuItem';
+import { StoryObj, Meta } from '@storybook/react';
+import { NavMenuItem } from '../components/NavMenu/subcomponents/NavMenuItem';
 
-export default {
-  title: 'Page/Nav Menu/Nav Menu Item',
-  component: NavMenuItem,
-} as Meta;
+export default { component: NavMenuItem } as Meta;
 
-const Template: Story<NavMenuItemProps> = (args) => <NavMenuItem {...args} />;
-
-export const navMenuItem = Template.bind({});
-navMenuItem.args = {
-  text: 'Nav Menu Item',
-  href: '/test-href',
+export const navMenuItem: StoryObj<typeof NavMenuItem> = {
+  args: {
+    text: 'Nav Menu Item',
+    href: '/test-href',
+  },
 };

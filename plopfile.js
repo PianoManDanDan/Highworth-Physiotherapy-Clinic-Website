@@ -1,4 +1,4 @@
-module.exports = (plop) => {
+export default (plop) => {
   plop.setGenerator('Page', {
     description: 'Generate a new page',
     prompts: [

@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import { GetStaticProps } from 'next';
-import { Person } from '../types';
-import { TeamMember } from '../components/TeamMember';
-import data from '../data/people.json';
+import { Person } from 'types';
+import { TeamMember } from 'components/TeamMember';
+import data from 'data/people.json';
 
 type MeetTheTeamProps = {
   people: Person[],

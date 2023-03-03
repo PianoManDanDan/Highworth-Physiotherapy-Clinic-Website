@@ -12,3 +12,6 @@ build*/
 
 # test coverage files
 tests/coverage/
+
+# Log files
+*.log

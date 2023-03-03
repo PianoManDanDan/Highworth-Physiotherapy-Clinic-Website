@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "author": "Daniel Martin",
   "description": "NextJS app for Highworth Physiotherapy Clinic Website",
+  "type": "module",
   "engines": {
     "node": ">= 18"
   },
@@ -11,11 +12,11 @@
     "build": "next build",
     "start": "next build && next start",
     "export": "next build && next export",
-    "test": "jest --config tests/config/jest.config.js",
-    "test:watch": "jest --watch --config tests/config/jest.config.js",
-    "test:coverage": "jest --collect-coverage --config tests/config/jest.config.js",
-    "test:ci": "jest --ci --reporters=default --config tests/config/jest.config.js",
-    "storybook": "start-storybook -p 6006",
+    "test": "jest --config tests/config/jest.config.cjs",
+    "test:watch": "jest --watch --config tests/config/jest.config.cjs",
+    "test:coverage": "jest --collect-coverage --config tests/config/jest.config.cjs",
+    "test:ci": "jest --ci --reporters=default --config tests/config/jest.config.cjs",
+    "storybook": "storybook dev -p 6006",
     "generate": "plop"
   },
   "dependencies": {
@@ -28,14 +29,12 @@
   },
   "devDependencies": {
     "@babel/core": "^7.21.0",
-    "@storybook/addon-a11y": "^6.5.16",
-    "@storybook/addon-actions": "^6.5.16",
-    "@storybook/addon-essentials": "^6.5.16",
-    "@storybook/addon-links": "^6.5.16",
-    "@storybook/builder-webpack5": "^6.5.16",
-    "@storybook/manager-webpack5": "^6.5.16",
-    "@storybook/preset-scss": "^1.0.3",
-    "@storybook/react": "^6.5.16",
+    "@storybook/addon-a11y": "^7.0.0-beta.59",
+    "@storybook/addon-actions": "^7.0.0-beta.59",
+    "@storybook/addon-essentials": "^7.0.0-beta.59",
+    "@storybook/addon-links": "^7.0.0-beta.59",
+    "@storybook/nextjs": "^7.0.0-beta.59",
+    "@storybook/react": "^7.0.0-beta.59",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
@@ -44,16 +43,14 @@
     "@types/react": "^18.0.28",
     "babel-jest": "^29.4.3",
     "babel-loader": "^9.1.2",
-    "css-loader": "^6.7.3",
     "jest": "^29.4.3",
     "jest-environment-jsdom": "^29.4.3",
     "jest-extended": "^3.2.4",
     "plop": "^3.1.2",
     "sass": "^1.58.3",
-    "sass-loader": "^10.4.1",
-    "storybook-addon-next-router": "^4.0.2",
-    "storybook-addon-pseudo-states": "^1.15.2",
-    "style-loader": "^3.3.1",
-    "typescript": "^4.9.5"
+    "sass-loader": "^13.2.0",
+    "storybook": "^7.0.0-beta.59",
+    "typescript": "^4.9.5",
+    "util": "^0.12.5"
   }
 }

@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import { NavMenu } from '../../../components/NavMenu';
+import { NavMenu } from 'components/NavMenu';
 
 describe('NavMenu Component', () => {
   describe('When passed a single child element', () => {

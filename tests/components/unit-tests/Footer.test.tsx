@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import { Footer } from '../../../components/Footer';
+import { Footer } from 'components/Footer';
 
 const mockFacebookIcon = jest.fn(() => <svg data-testid='mockFacebookIcon' />);
 jest.mock('react-feather', () => ({

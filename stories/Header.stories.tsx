@@ -1,15 +1,10 @@
-import React from 'react';
-import { Story, Meta } from '@storybook/react';
+import { StoryObj, Meta } from '@storybook/react';
 import { Header } from '../components/Header';
 
-export default {
-  title: 'Page/Header',
-  component: Header,
-} as Meta;
+export default { component: Header } as Meta;
 
-const Template: Story<{}> = () => <Header />;
-
-export const header = Template.bind({});
-header.parameters = {
-  controls: { hideNoControlsWarning: true },
+export const header: StoryObj<typeof Header> = {
+  parameters: {
+    controls: { hideNoControlsWarning: true },
+  }
 };

@@ -12,7 +12,8 @@ const customJestConfig = {
   ],
   testPathIgnorePatterns: [
     '<rootDir>/node_modules/',
-    '<rootDir>/build-*/',
+    '<rootDir>/build-development/',
+    '<rootDir>/build-production/',
     '<rootDir>/out/',
   ],
   setupFilesAfterEnv: [

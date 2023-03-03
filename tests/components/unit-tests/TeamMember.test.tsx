@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
-import { TeamMember } from '../../../components/TeamMember';
-import { Person } from '../../../types';
+import { TeamMember } from 'components/TeamMember';
+import { Person } from 'types';
 
 const mockNextImage = jest.fn(({src, alt}) => <img src={src} alt={alt} data-testid='mockNextImage' />);
 jest.mock('next/image', () => ({

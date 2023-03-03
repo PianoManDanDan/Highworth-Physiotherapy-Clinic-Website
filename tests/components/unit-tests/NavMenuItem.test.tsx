@@ -1,8 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import { 
-  NavMenuItem,
-  NavMenuItemProps,
-} from '../../../components/NavMenu/subcomponents/NavMenuItem';
+import { NavMenuItem, NavMenuItemProps } from 'components/NavMenu/subcomponents/NavMenuItem';
 
 describe('NavMenuItem Component', () => {
   test('renders without crashing, with the correct text and href attribute', () => {

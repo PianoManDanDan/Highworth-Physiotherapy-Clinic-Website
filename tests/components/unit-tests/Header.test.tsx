@@ -1,10 +1,10 @@
 import { render, screen } from '@testing-library/react';
-import { Header } from '../../../components/Header';
+import { Header } from 'components/Header';
 
 const mockNavMenu = jest.fn(() => <div data-testid='mockNavMenu' />);
 const mockNavMenuItem = jest.fn(() => <div data-testid="mockNavMenuItem" />);
 
-jest.mock('../../../components/NavMenu', () => ({
+jest.mock('components/NavMenu', () => ({
   __esModule: true,
   NavMenu: () => mockNavMenu(),
   NavMenuItem: () => mockNavMenuItem(),

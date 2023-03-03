@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Person } from '../../types';
+import { Person } from 'types';
 import styles from './TeamMember.module.scss';
 
 export const TeamMember: React.FC<Person> = ({
