@@ -4,7 +4,7 @@
     "name": "Sonya Nightingale",
     "image": {
       "src": "/assets/people/sonya.jpg",
-      "altText": "Sonya Nightingale - Physiotherapist"
+      "alt": "Sonya Nightingale - Physiotherapist"
     },
     "bio": [
       "Sonya graduated from Coventry University with graduate diploma in Physiotherapy in 1985. She is the principle physiotherapist at Highworth Physiotherapy Clinic, which she launched in 1989. She started her physiotherapy career working in NHS hospitals and running clinics in GP surgeries before starting her private clinic. She lectures to GP's on physiotherapy procedures and is a Physio First member. Her special interest is the spine and she spends a lot of time treating backs and necks.",
@@ -35,7 +35,7 @@
     "name": "Emma Overson",
     "image": {
       "src": "/assets/people/emma.jpg",
-      "altText": "Emma Overson - Physiotherapist"
+      "alt": "Emma Overson - Physiotherapist"
     },
     "bio": [
       "Emma graduated from Coventry University with a BSc (Hons) degree in Physiotherapy. She spent 7 years working in the NHS before moving into private practice. She specialises in musculoskeletal problems with a particular interest in lower back / pelvic problems and core stability.",
@@ -65,7 +65,7 @@
     "name": "Fiona Hemmings",
     "image": {
       "src": "/assets/people/fiona.jpg",
-      "altText": "Fiona Hemmings - Physiotherapist"
+      "alt": "Fiona Hemmings - Physiotherapist"
     },
     "bio": [
       "Fiona graduated with BSc (Hons) from the University of the West of England, Bristol as a Chartered Physiotherapist in 1995. She worked in the NHS for 8 years specialising in treating musculoskeletal conditions, with a keen interest in sports injuries. Fiona has been practicing acupuncture since 2000 and has worked with the military for a number of years treating tri-service personnel. She is a member of Physio First and the Acupuncture Association of Chartered Physiotherapists.",
@@ -96,7 +96,7 @@
     "name": "Diane Turner",
     "image": {
       "src": "/assets/people/diane.jpg",
-      "altText": "Diane Turner - Physiotherapist"
+      "alt": "Diane Turner - Physiotherapist"
     },
     "bio": [
       "Diane graduated from The Royal London Hospital in 1987. She has a MSc in advanced practice and a diploma in sports medicine. She is an extended scope practitioner and a clinical specialist in the diagnosis and treatment of shoulder injuries.",
@@ -126,7 +126,7 @@
     "name": "Shani Prosser",
     "image": {
       "src": "/assets/people/shani.jpg",
-      "altText": "Shani Prosser - Physiotherapist"
+      "alt": "Shani Prosser - Physiotherapist"
     },
     "bio": [
       "Shani graduated from Sheffield University with a BSc (Hons) in Physiotherapy and has developed a wealth of experience from working in both the NHS and private practice. She has worked as a Physiotherapist for St. Peters Welsh Rugby Club and for the Amateur Welsh Rugby Squad. She has returned to work for us after moving away from the area for a couple of years.",
@@ -155,7 +155,7 @@
     "name": "Joe Baker",
     "image": {
       "src": "/assets/people/joe.jpg",
-      "altText": "Joe Baker - Physiotherapist"
+      "alt": "Joe Baker - Physiotherapist"
     },
     "bio": [
       "Joe graduated from the University of the West of England, Bristol in 2012. He specialises in treating elderly patients and does domiciliary visits for patients that are unable to travel to the clinic. Joe visits us on a consultancy basis by request only."
@@ -172,7 +172,7 @@
     "name": "Steve Martin",
     "image": {
       "src": "/assets/people/steve.jpg",
-      "altText": "Steve Martin - Practice Manager"
+      "alt": "Steve Martin - Practice Manager"
     },
     "bio": [
       "Steve is the Practice Manager, receptionist and general dogs body. He manages the every day running of the clinic, from purchasing stock to cleaning up after the physios."
@@ -183,7 +183,7 @@
     "name": "Debbie Davies",
     "image": {
       "src": "/assets/people/debbie.jpg",
-      "altText": "Debbie Davies - Receptionist"
+      "alt": "Debbie Davies - Receptionist"
     },
     "bio": [
       "Debbie is one of our receptionists and welcomes our patients into the clinic as well as helping with general administration."
@@ -194,7 +194,7 @@
     "name": "Daniel Martin",
     "image": {
       "src": "/assets/people/daniel.jpg",
-      "altText": "Daniel Martin - Web Designer"
+      "alt": "Daniel Martin - Web Designer"
     },
     "bio": [
       "Daniel designed and built the website, and keeps it up to date as well as managing our social media pages."

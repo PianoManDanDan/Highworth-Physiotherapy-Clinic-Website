@@ -1,6 +1,7 @@
-import Image from 'next/image';
+import { ImageWithFallback } from 'components/ImageWithFallback';
 import { Person } from 'types';
 import styles from './TeamMember.module.scss';
+import teamMemberFallback from 'public/assets/people/placeholder.png';
 
 export const TeamMember: React.FC<Person> = ({
   name,
@@ -10,14 +11,18 @@ export const TeamMember: React.FC<Person> = ({
   yearQualified,
   specialities,
 }) => {
+  image.height = 160;
+  image.width = 160;
+
   return (
     <div className={styles['team-member']}>
       <div className={styles['team-member__picture']}>
-        <Image
+        <ImageWithFallback
           src={image.src}
-          alt={image.altText}
-          height={160}
-          width={160}
+          alt={image.alt}
+          height={image.width}
+          width={image.height}
+          fallbackSrc={teamMemberFallback}
         />
       </div>
       <div>

@@ -2,20 +2,14 @@ import { render, screen } from '@testing-library/react';
 import { TeamMember } from 'components/TeamMember';
 import { Person } from 'types';
 
-const mockNextImage = jest.fn(({src, alt}) => <img src={src} alt={alt} data-testid='mockNextImage' />);
-jest.mock('next/image', () => ({
-  __esModule: true,
-  default: (args) => mockNextImage(args),
-}));
-
 describe('TeamMember Component', () => {
   let teamMemberContent: Person;
   beforeEach(() => {
     teamMemberContent = {
       name: 'Person name test',
       image: {
-        src: 'Person image src test',
-        altText: 'Person image alt test',
+        src: '/person-image-src-test',
+        alt: 'Person image alt test',
       },
       bio: ['Person bio test'],
     }
@@ -28,13 +22,7 @@ describe('TeamMember Component', () => {
       );
   
       // Assert
-      expect(mockNextImage).toHaveBeenCalledTimes(1);
-      expect(mockNextImage).toHaveBeenCalledWith(
-        expect.objectContaining({
-          src: teamMemberContent.image.src,
-          alt: teamMemberContent.image.altText,
-        })
-      );
+      expect(screen.getByAltText(teamMemberContent.image.alt)).toBeInTheDocument();
       expect(screen.getByRole('heading', {name: teamMemberContent.name})).toBeInTheDocument();
       teamMemberContent.bio.forEach((bioParagraph) => {
         expect(screen.getByText(bioParagraph)).toBeInTheDocument();
@@ -52,14 +40,7 @@ describe('TeamMember Component', () => {
       );
 
       // Assert
-      const partialExpectedImageProps = {
-        src: teamMemberContent.image.src,
-        alt: teamMemberContent.image.altText,
-      };
-      expect(mockNextImage).toHaveBeenCalledTimes(1);
-      expect(mockNextImage).toHaveBeenCalledWith(
-        expect.objectContaining(partialExpectedImageProps)
-      );
+      expect(screen.getByAltText(teamMemberContent.image.alt)).toBeInTheDocument();
       expect(screen.getByText(teamMemberContent.name, { exact: false })).toBeInTheDocument();
       expect(screen.getByText(teamMemberContent.qualification, { exact: false })).toBeInTheDocument();
       expect(screen.getByText(`Qualified ${teamMemberContent.yearQualified}`)).toBeInTheDocument();

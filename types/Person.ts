@@ -1,11 +1,11 @@
+import { ImageWithFallbackProps } from "components/ImageWithFallback";
+import { ImageProps } from "next/image";
+
 export type Person = {
   /** Name of the person */
   name: string,
-  /** src and alt text details for the image to use */
-  image: {
-    src: string,
-    altText: string,
-  },
+  /** Details for the person's profile picture */
+  image: ImageProps | ImageWithFallbackProps,
   /** Array of paragraphs to be used as a biography */
   bio: string[],
   /** Name of qualification, if applicable */

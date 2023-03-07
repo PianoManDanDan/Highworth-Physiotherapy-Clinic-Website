@@ -11,7 +11,7 @@ const teamMember: StoryObj<typeof TeamMember> = {
     name: 'John Smith',
     image: {
       src: 'https://picsum.photos/200',
-      altText: 'team member'
+      alt: 'team member',
     },
     bio: [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non sodales nisi. Nulla non ex at libero accumsan porttitor. Donec ultrices ullamcorper tortor ac dignissim. Donec rhoncus turpis nec lorem congue finibus. Donec euismod, diam ut sagittis euismod, magna justo mollis tortor, in mattis risus neque sit amet arcu. Mauris ut massa viverra est semper ullamcorper sit amet nec quam.',
@@ -26,7 +26,7 @@ export const physiotherapist: StoryObj<typeof TeamMember> = {
   args: {
     ...teamMember.args,
     qualification: 'MCSP',
-    yearQualified: '2005',
+    yearQualified: 2005,
     specialities: [
       'Head',
       'Neck',
