@@ -15,8 +15,8 @@ export const TeamMember: React.FC<Person> = ({
   image.width = 160;
 
   return (
-    <div className={styles['team-member']}>
-      <div className={styles['team-member__picture']}>
+    <div className={styles.teamMember}>
+      <div className={styles.teamMemberPicture}>
         <ImageWithFallback
           src={image.src}
           alt={image.alt}
@@ -25,19 +25,19 @@ export const TeamMember: React.FC<Person> = ({
           fallbackSrc={teamMemberFallback}
         />
       </div>
-      <div>
-        <h2>{name} {qualification || null}</h2>
+      <div className={styles.teamMemberBody}>
+        <h2 className={styles.teamMemberName}>{name} {qualification || null}</h2>
         {
           yearQualified
-          ? <p>Qualified {yearQualified}</p>
+          ? <p className={styles.yearQualified}>Qualified {yearQualified}</p>
           : null
         }
         {
           specialities && specialities.length !== 0
-          ? <p>Speciality: {specialities.join(', ')}</p>
+          ? <p className={styles.specialities}>Speciality: {specialities.join(', ')}</p>
           : null
         }
-        {bio.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
+        {bio.map((paragraph, index) => <p key={index} className={styles.teamMemberBio}>{paragraph}</p>)}
       </div>
     </div>
   );

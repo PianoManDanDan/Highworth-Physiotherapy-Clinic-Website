@@ -7,15 +7,27 @@ export default {
   subcomponents: { NavMenuItem }
 } as Meta;
 
-export const navMenu: StoryObj<typeof NavMenu> = {
+export const desktopView: StoryObj<typeof NavMenu> = {
   render: () => (
     <NavMenu>
-      <a>Nav Menu Item 1</a>
-      <a>Nav Menu Item 2</a>
-      <a>Nav Menu Item 3</a>
+      <NavMenuItem text='Test 1' href='/test-1' />
+      <NavMenuItem text='Test 2' href='/test-2' />
+      <NavMenuItem text='Test 3' href='/test-3' />
+    </NavMenu>
+  ),
+}
+
+export const mobileView: StoryObj<typeof NavMenu> = {
+  render: () => (
+    <NavMenu>
+      <NavMenuItem text='Test 1' href='/test-1' />
+      <NavMenuItem text='Test 2' href='/test-2' />
+      <NavMenuItem text='Test 3' href='/test-3' />
     </NavMenu>
   ),
   parameters: {
-    controls: { hideNoControlsWarning: true },
-  }
+    viewport: {
+      defaultViewport: 'mobile1',
+    },
+  },
 }

@@ -14,3 +14,4 @@
   - [ ] Debbie
   - [ ] Daniel
 - [ ] Set up theme colors to work properly
+- [ ] "Skip to main content" button

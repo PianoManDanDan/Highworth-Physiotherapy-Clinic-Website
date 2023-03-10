@@ -11,20 +11,20 @@ export const NavMenu: React.FC<NavMenuProps> = ({ children }) => {
     <nav
       className={cn({
         [styles.menu]: true,
-        [styles['menu--open']]: isOpen,
+        [styles.menu__open]: isOpen,
       })}
     >
       <Menu
         className={cn({
-          [styles.menu__icon]: true,
-          [styles['menu__icon--hide']]: isOpen,
+          [styles.menuIcon]: true,
+          [styles.menuIcon__hide]: isOpen,
         })}
         onClick={() => setIsOpen(true)}
       />
       <X
         className={cn({
-          [styles.menu__icon]: true,
-          [styles['menu__icon--hide']]: !isOpen,
+          [styles.menuIcon]: true,
+          [styles.menuIcon__hide]: !isOpen,
         })}
         onClick={() => setIsOpen(false)}
       />

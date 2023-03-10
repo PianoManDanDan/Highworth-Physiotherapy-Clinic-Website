@@ -1,4 +1,4 @@
-@use '../../styles/mixins/media-query' as *;
+@use 'styles/mixins/media-query' as *;
 
 @keyframes example {
   0% {
@@ -40,16 +40,16 @@
     width: 50%;
   };
 
-  &--open {
+  &__open {
     background: red;
   };
 
-  &__icon {
+  &Icon {
     @include media-query(small) {
       display: none;
     };
 
-    &--hide {
+    &__hide {
       animation-name: example;
       animation-duration: 1s;
       animation-timing-function: ease-in-out;

@@ -1,20 +1,34 @@
-@use '../../styles/mixins/media-query' as *;
+@use 'styles/mixins/media-query' as *;
 
-.team-member {
+.teamMember {
   display: flex;
   flex-direction: column;
+
+  &:not(:last-of-type) {
+    margin-bottom: 3.5rem;
+  };
 
   @include media-query(small) {
     flex-direction: row;
   };
 
-  &__picture {
+  &Picture {
     align-self: center;
-    margin: 0 1rem;
+    margin: 0 1rem 1rem;
 
     @include media-query(small) {
       align-self: flex-start;
-      margin-top: 1.25em;
+      margin-bottom: 0;
     };
+  };
+
+  &Bio {
+    &:last-of-type {
+      margin-bottom: 0;
+    };
+  };
+
+  &Name {
+    margin-top: 0;
   };
 };

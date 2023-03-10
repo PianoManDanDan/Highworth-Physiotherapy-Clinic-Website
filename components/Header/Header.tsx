@@ -7,7 +7,7 @@ import styles from './Header.module.scss';
 export const Header: React.FC<{}> = () => {
   return (
     <header className={styles.header}>
-      <div className={styles['content-wrapper']}>
+      <div className={styles.contentWrapper}>
         <Link href='/' className={styles.logo}>
           <Image
             src='/assets/logos/hpc.png'
@@ -16,7 +16,7 @@ export const Header: React.FC<{}> = () => {
             width={30}
           />
         </Link>
-        <div className={styles['text-wrapper']}>
+        <div className={styles.textWrapper}>
           <Link href='/'>
             <h1 className={styles.title}>Highworth Physiotherapy Clinic</h1>
           </Link>
@@ -27,7 +27,7 @@ export const Header: React.FC<{}> = () => {
                 href="tel:+441793763814"
               >
                 <Phone />
-                <span className={styles.contact__number}>01793 763814</span>
+                <span className={styles.contactNumber}>01793 763814</span>
               </a>
             </h2>
           </address>
