@@ -1,0 +1,13 @@
+.skipContent {
+  position: absolute;
+  top: 0;
+  right: 100%;
+  z-index: 999;
+
+  &:focus {
+    right: auto;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    padding: 0.5rem;
+  };
+};

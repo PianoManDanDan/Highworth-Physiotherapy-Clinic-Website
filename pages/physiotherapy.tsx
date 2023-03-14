@@ -6,7 +6,7 @@ export const Physiotherapy = (): JSX.Element => {
       <Head>
         <title>Physiotherapy | Highworth Physiotherapy Clinic</title>
       </Head>
-      <main>
+      <main id="main-content">
         <h1>PHYSIOTHERAPY</h1>
         <p>
           Physiotherapy is the treatment of a wide variety of injuries and conditions using a range of manual

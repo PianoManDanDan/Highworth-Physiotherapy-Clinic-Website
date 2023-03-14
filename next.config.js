@@ -8,5 +8,9 @@ export default {
   },
   images: {
     unoptimized: true,
+  },
+  i18n: {
+    locales: ['en'],
+    defaultLocale: 'en',
   }
 };

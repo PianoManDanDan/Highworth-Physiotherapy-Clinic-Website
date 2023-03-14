@@ -6,7 +6,7 @@ export const Animals = (): JSX.Element => {
       <Head>
         <title>Animals | Highworth Physiotherapy Clinic</title>
       </Head>
-      <main>
+      <main id="main-content">
         <h1>ANIMAL THERAPY</h1>
         <p>
           Animals also benefit from physiotherapy when they are suffering from muscular skeletal or neurological

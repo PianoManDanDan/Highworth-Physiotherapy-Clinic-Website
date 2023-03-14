@@ -6,7 +6,7 @@ export const ContactUs = (): JSX.Element => {
       <Head>
         <title>Contact Us | Highworth Physiotherapy Clinic</title>
       </Head>
-      <main>
+      <main id="main-content">
         <h1>CONTACT US</h1>
         <p>
           If you wish to book an appointment, please call us on <a href="tel:+441793763814">01793 763814</a>.

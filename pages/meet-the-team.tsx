@@ -14,7 +14,7 @@ export const MeetTheTeam = ({ people }: MeetTheTeamProps): JSX.Element => {
       <Head>
         <title>Meet The Team | Highworth Physiotherapy Clinic</title>
       </Head>
-      <main>
+      <main id="main-content">
         <h1>MEET THE TEAM</h1>
         {people.map((person) => 
           <TeamMember {...person} key={person.name} />

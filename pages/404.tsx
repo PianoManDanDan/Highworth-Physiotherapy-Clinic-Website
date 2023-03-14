@@ -7,7 +7,7 @@ export const PageNotFound = (): JSX.Element => {
       <Head>
         <title>Oops... | Highworth Physiotherapy Clinic</title>
       </Head>
-      <main>
+      <main id="main-content">
         <Image
           src='/assets/men-at-work.jpg'
           alt='Construction workers building a spine'

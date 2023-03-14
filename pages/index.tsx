@@ -6,7 +6,7 @@ export const HomePage = (): JSX.Element => {
       <Head>
         <title>Highworth Physiotherapy Clinic</title>
       </Head>
-      <main>
+      <main id="main-content">
         <h1>HOME</h1>
         <p>
           Highworth Physiotherapy Clinic is a private physiotherapy and sports injury clinic conveniently located on

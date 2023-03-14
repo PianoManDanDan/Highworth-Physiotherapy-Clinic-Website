@@ -6,7 +6,7 @@ export const Facilities = (): JSX.Element => {
       <Head>
         <title>Facilities | Highworth Physiotherapy Clinic</title>
       </Head>
-      <main>
+      <main id="main-content">
         <h1>FACILITIES</h1>
         <p>
           We have three fully equipped treatment rooms including one on the ground floor for patients unable to use

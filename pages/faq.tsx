@@ -6,7 +6,7 @@ export const Faq = (): JSX.Element => {
       <Head>
         <title>FAQ's | Highworth Physiotherapy Clinic</title>
       </Head>
-      <main>
+      <main id="main-content">
         <h1>FREQUENTLY ASKED QUESTIONS</h1>
         
         <h2>How long will my appointment be?</h2>
