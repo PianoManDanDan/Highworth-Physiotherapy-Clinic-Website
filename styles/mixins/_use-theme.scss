@@ -1,0 +1,44 @@
+@use 'sass:map';
+@use 'styles/mixins/get-color' as *;
+
+$themes: (
+  light: (
+    background: get-color(white, 200),
+    footer-background: get-color(blue, 100),
+    text: get-color(black, 100),
+    heading: get-color(blue, 100),
+    accent: get-color(green, 100),
+  ),
+  dark: (
+    // TODO: Purple and red don't work with that background color.
+    background: get-color(black, 100),
+    footer-background: get-color(blue, 100),
+    text: get-color(white, 200),
+    heading: get-color(blue, 100),
+    accent: get-color(green, 100),
+  ),
+);
+
+@mixin use-theme {
+  $background-light-main: map-get(map-get($themes, light), background);
+  $background-light-accent: map-get(map-get($themes, light), footer-background);
+
+  $background-dark-main: map-get(map-get($themes, dark), background);
+  $background-dark-accent: map-get(map-get($themes, dark), footer-background);
+
+  :root {
+    --background-color: #{map-get(map-get($themes, light), background)};
+    --footer-background: #{map-get(map-get($themes, light), footer-background)};
+    --heading-color: #{map-get(map-get($themes, light), heading)};
+    --text-color: #{map-get(map-get($themes, light), text)};
+    --accent-color: #{map-get(map-get($themes, light), accent)};
+  };
+
+  [data-theme='dark'] {
+    --background-color: #{map-get(map-get($themes, dark), background)};
+    --footer-background: #{map-get(map-get($themes, dark), footer-background)};
+    --heading-color: #{map-get(map-get($themes, dark), heading)};
+    --text-color: #{map-get(map-get($themes, dark), text)};
+    --accent-color: #{map-get(map-get($themes, dark), accent)};
+  };
+};

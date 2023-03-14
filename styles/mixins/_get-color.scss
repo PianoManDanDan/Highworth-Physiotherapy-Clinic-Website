@@ -1,7 +1,7 @@
 @use 'sass:map';
-@use '../variables/colors' as *;
+@use 'styles/variables/colors' as *;
 
-@function color($color, $variant: 100) {
+@function get-color($color, $variant: 100) {
     $color-base: map.get($colors, $color);
     $color-variant: map.get($color-base, $variant);
     @return $color-variant;

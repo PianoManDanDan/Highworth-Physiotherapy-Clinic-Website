@@ -3,45 +3,34 @@
 
 $colors: (
   blue: (
-    100: hsl(260, 100, 30),
-    200: hsl(260, 100, 30),
-    300: hsl(260, 100, 30),
-    400: hsl(260, 100, 30),
-    500: hsl(260, 100, 30),
+    100: hsl(213, 69%, 55%),
+    200: hsl(260, 100%, 30%),
+    300: hsl(260, 100%, 30%),
+    400: hsl(260, 100%, 30%),
+    500: hsl(260, 100%, 30%),
+  ),
+  green: (
+    100: hsl(158, 96%, 42%),
   ),
   black: (
-    100: hsl(70, 5, 22),
-    200: hsl(70, 5, 22),
-    300: hsl(70, 5, 22),
-    400: hsl(70, 5, 22),
-    500: hsl(70, 5, 22),
+    100: hsl(70, 5%, 22%),
+    200: hsl(70, 5%, 22%),
+    300: hsl(70, 5%, 22%),
+    400: hsl(70, 5%, 22%),
+    500: hsl(70, 5%, 22%),
   ),
   red: (
-    100: hsl(357, 93, 40),
-    200: hsl(0, 100, 26),
-    300: hsl(0, 0, 0),
-    400: hsl(0, 0, 0),
-    500: hsl(0, 0, 0),
+    100: hsl(357, 93%, 40%),
+    200: hsl(0, 100%, 26%),
+    300: hsl(0, 0%, 0%),
+    400: hsl(0, 0%, 0%),
+    500: hsl(0, 0%, 0%),
   ),
-);
-
-
-// TODO: SEE THE FOLLOWING LINKS FOR THEME IDEAS
-// https://coolors.co/generate
-// http://colormind.io/
-// https://mycolor.space/
-$themes: (
-  light: (
-    background: white,
-    text: #3b3c36,
-    pageHeading: #330099,
-    subHeading: #c50711,
-  ),
-  dark: (
-    // TODO: Purple and red don't work with that background color.
-    background: #3b3c36,
-    text: white,
-    pageHeading: #330099,
-    subHeading: #c50711,
-  ),
+  white: (
+    100: hsl(0, 0%, 95%),
+    200: hsl(203, 100%, 96%),
+    300: hsl(0, 0%, 75%),
+    400: hsl(0, 0%, 65%),
+    500: hsl(0, 0%, 55%),
+  )
 );

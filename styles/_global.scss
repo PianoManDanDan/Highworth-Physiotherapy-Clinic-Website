@@ -1,36 +1,34 @@
-@use './mixins/reset' as *;
-@use './mixins/media-query' as *;
-@use './variables/fonts';
+@use 'styles/mixins/media-query' as *;
+@use 'styles/mixins/use-theme' as *;
+@use 'styles/mixins/reset' as *;
+@use 'styles/variables/fonts';
 
-@import './layout/layout';
+@import 'styles/layout/layout';
 
-// TODO: HOW TO DO THEMES
-// :root {
-//   /* Your default theme */
-//   background: white;
-//   color: black;
-// };
+@include use-theme();
 
-// [data-theme='dark'] {
-//   background: black;
-//   color: white;
-// };
+body {
+  background: var(--background-color);
+};
 
 h1 {
   font-family: fonts.$font-family-heading;
   font-weight: fonts.$font-weight-bold;
+  color: var(--heading-color);
 };
 
 h2, h3, h4, h5, h6 {
   font-family: fonts.$font-family-subheading;
   font-weight: fonts.$font-weight-bold;
+  color: var(--heading-color);
 };
 
 p, div {
   font-family: fonts.$font-family-body;
   font-weight: fonts.$font-weight-normal;
+  color: var(--text-color);
 };
 
-a {
+a, abbr {
   text-decoration: none;
 };
