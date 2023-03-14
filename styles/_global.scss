@@ -14,21 +14,28 @@ body {
 h1 {
   font-family: fonts.$font-family-heading;
   font-weight: fonts.$font-weight-bold;
-  color: var(--heading-color);
 };
 
 h2, h3, h4, h5, h6 {
   font-family: fonts.$font-family-subheading;
   font-weight: fonts.$font-weight-bold;
-  color: var(--heading-color);
 };
 
 p, div {
   font-family: fonts.$font-family-body;
   font-weight: fonts.$font-weight-normal;
-  color: var(--text-color);
 };
 
 a, abbr {
   text-decoration: none;
+};
+
+main {
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--heading-color);
+  };
+
+  p {
+    color: var(--text-color);
+  };
 };

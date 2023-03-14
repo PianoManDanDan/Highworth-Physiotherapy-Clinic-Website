@@ -1,8 +1,11 @@
+@use 'styles/mixins/get-color' as *;
 @use 'styles/mixins/media-query' as *;
 
 .footer {
-  margin-top: 1rem;
+  background: var(--footer-background);
+  padding: 1rem 0;
 
+  margin-top: 1rem;
   @include media-query(small) {
     margin-top: 2rem;
   };
@@ -10,29 +13,37 @@
     margin-top: 3rem;
   };
 
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: center;
-  margin: 0 auto 1rem;
-  max-width: 80%;
+  &Wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 80%;
 
-  @include media-query(small) {
-    flex-direction: row;
-    max-width: 66%;
-  };
-  @include media-query(medium) {
-    max-width: 50%;
-  };
-
-  & > div {
-    flex-basis: 40%;
-    max-width: 70%;
-    align-self: center;
-    margin: 0 0.5rem;
+    color: get-color(white, 200);
 
     @include media-query(small) {
-      align-self: flex-start;
+      flex-direction: row;
+      max-width: 66%;
     };
+    @include media-query(medium) {
+      max-width: 50%;
+    };
+
+    & > div {
+      flex-basis: 40%;
+      max-width: 70%;
+      align-self: center;
+      margin: 0 0.5rem;
+
+      @include media-query(small) {
+        align-self: flex-start;
+      };
+    };
+
+    a {
+      color: get-color(white, 200);
+    }
   };
 };
 
