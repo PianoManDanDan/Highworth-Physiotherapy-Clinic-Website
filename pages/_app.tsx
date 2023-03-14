@@ -6,7 +6,7 @@ import 'styles/_global.scss';
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (
-    <ThemeProvider disableTransitionOnChange defaultTheme="light">
+    <ThemeProvider disableTransitionOnChange>
       <Header />
       <Component {...pageProps} />
       <Footer />
