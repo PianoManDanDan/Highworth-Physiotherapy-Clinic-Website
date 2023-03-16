@@ -1,5 +1,12 @@
+@use 'styles/mixins/media-query' as *;
+
 .navMenuItem {
   flex-basis: 0;
   flex-grow: 1;
   text-align: center;
+  display: none;
+
+  @include media-query(small) {
+    display: block;
+  };
 };

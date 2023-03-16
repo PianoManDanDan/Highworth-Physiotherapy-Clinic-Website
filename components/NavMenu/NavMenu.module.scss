@@ -29,15 +29,10 @@
 
 .menu {
   // display: none;
+  display: flex;
+
   @include media-query(small) {
-    display: flex;
-    width: 80%;
-  };
-  @include media-query(medium) {
-    width: 65%;
-  };
-  @include media-query(large) {
-    width: 50%;
+    width: 90%;
   };
 
   &__open {
@@ -45,6 +40,7 @@
   };
 
   &Icon {
+    margin-left: 0.75rem;
     @include media-query(small) {
       display: none;
     };
@@ -56,6 +52,7 @@
       animation-iteration-count: 1;
       animation-direction: alternate;
       animation-fill-mode: both;
+      margin: 0;
     };
   };
 };

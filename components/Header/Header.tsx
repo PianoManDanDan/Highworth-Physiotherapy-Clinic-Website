@@ -3,35 +3,33 @@ import Link from 'next/link';
 import { Phone } from 'react-feather';
 import { NavMenu, NavMenuItem } from '../NavMenu';
 import styles from './Header.module.scss';
+import logoImage from 'public/assets/logos/hpc.png';
 
 export const Header: React.FC<{}> = () => {
   return (
     <header className={styles.header}>
       <div className={styles.contentWrapper}>
-        <Link href='/' className={styles.logo}>
-          <Image
-            src='/assets/logos/hpc.png'
-            alt='Highworth Physiotherapy Clinic'
-            height={128}
-            width={30}
-          />
-        </Link>
-        <div className={styles.textWrapper}>
-          <Link href='/'>
-            <h1 className={styles.title}>Highworth Physiotherapy Clinic</h1>
+        <div className={styles.logoWrapper}>
+          <Link href='/' className={styles.logo}>
+            <Image
+              src={logoImage}
+              alt='Highworth Physiotherapy Clinic'
+              className={styles.logoImage}
+            />
+            <h1 className={styles.logoTitle}>Highworth Physiotherapy Clinic</h1>
           </Link>
-          <address>
-            <h2>
-              <a
-                className={styles.contact}
-                href="tel:+441793763814"
-              >
-                <Phone />
-                <span className={styles.contactNumber}>01793 763814</span>
-              </a>
-            </h2>
-          </address>
         </div>
+        <div className={styles.spacer} />
+        <address className={styles.phoneLink}>
+          <Link
+            className={styles.contact}
+            href='tel:+441793763814'
+            aria-label='Call us on 01793 763814'
+          >
+            <span className={styles.contactNumber}>01793 763814</span>
+            <Phone className={styles.contactIcon} />
+          </Link>
+        </address>
       </div>
       <NavMenu>
         <NavMenuItem text='Home' href='/' />

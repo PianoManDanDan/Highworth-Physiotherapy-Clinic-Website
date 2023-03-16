@@ -20,7 +20,7 @@ describe('Header Component unit test', () => {
     // Assert
     expect(screen.getByAltText('Highworth Physiotherapy Clinic')).toBeInTheDocument();
     expect(screen.getByRole('heading', {name: 'Highworth Physiotherapy Clinic'})).toBeInTheDocument();
-    expect(screen.getByRole('link', {name: '01793 763814'})).toHaveAttribute('href', 'tel:+441793763814');
+    expect(screen.getByRole('link', {name: 'Call us on 01793 763814'})).toHaveAttribute('href', 'tel:+441793763814');
     expect(screen.getByTestId('mockNavMenu')).toBeInTheDocument();
   });
 });
