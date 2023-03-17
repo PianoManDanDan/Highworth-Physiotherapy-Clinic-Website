@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { Map } from 'components/Map';
 
 export const ContactUs = (): JSX.Element => {
   return (
@@ -17,12 +18,7 @@ export const ContactUs = (): JSX.Element => {
           We are located at 13 High Street, Highworth, just down from the main square, located between the King and
           Queen Pub and the Old Bakery.
         </p>
-        <iframe
-          title="Map to Highworth Physiotherapy Clinic"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d880.7373636506683!2d-1.7109584980516754!3d51.63042301069111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487148625caf79a5%3A0xfd8b60c3a023fce!2sHighworth%20Physiotherapy%20Clinic!5e1!3m2!1sen!2suk!4v1619650580444!5m2!1sen!2suk"
-          allowFullScreen
-          loading="lazy"
-        />
+        <Map />
 
         <h2>Opening hours</h2>
         <p>Our opening hours are</p>
