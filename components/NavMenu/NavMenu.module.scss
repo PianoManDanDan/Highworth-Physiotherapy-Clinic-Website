@@ -40,7 +40,7 @@
   };
 
   &Icon {
-    margin-left: 0.75rem;
+    margin-left: 0.5rem;
     @include media-query(small) {
       display: none;
     };

@@ -22,14 +22,14 @@
       margin-bottom: 1.5rem;
     };
 
-    .spacer {
-      flex-grow: 1;
-    }
-
     .logo {
       display: flex;
       align-items: center;
       flex-direction: row;
+
+      &Wrapper {
+        flex-grow: 1;
+      };
 
       &Image {
         height: 4.5rem;
@@ -53,23 +53,27 @@
         }
       };
     };
+    .phoneLink {
+      margin: 0 0.5rem;
 
-    .contact {
-      display: flex;
-      align-items: center;
-      font-style: normal;
+      .contact {
+        display: flex;
+        align-items: center;
+        font-style: normal;
+        padding: 0.25rem;
 
-      &Icon {
-        margin-left: 0.5rem;
-      };
+        &Number {
+          display: none;
+          text-align: right;
+          padding-right: 0.5rem;
 
-      &Number {
-        display: none;
-        @include media-query(small) {
-          display: block;
-          font-weight: bold;
+          @include media-query(small) {
+            display: block;
+            font-weight: bold;
+            padding: none;
+          };
         };
       };
-    };
+    }
   };
 };

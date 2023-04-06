@@ -4,6 +4,7 @@ import { Phone } from 'react-feather';
 import { NavMenu, NavMenuItem } from '../NavMenu';
 import styles from './Header.module.scss';
 import logoImage from 'public/assets/logos/hpc.png';
+import { ThemeSwitcher } from '../ThemeSwitcher';
 
 export const Header: React.FC<{}> = () => {
   return (
@@ -13,13 +14,12 @@ export const Header: React.FC<{}> = () => {
           <Link href='/' className={styles.logo}>
             <Image
               src={logoImage}
-              alt='Highworth Physiotherapy Clinic'
+              alt=''
               className={styles.logoImage}
             />
             <h1 className={styles.logoTitle}>Highworth Physiotherapy Clinic</h1>
           </Link>
         </div>
-        <div className={styles.spacer} />
         <address className={styles.phoneLink}>
           <Link
             className={styles.contact}
@@ -30,6 +30,7 @@ export const Header: React.FC<{}> = () => {
             <Phone className={styles.contactIcon} />
           </Link>
         </address>
+        <ThemeSwitcher />
       </div>
       <NavMenu>
         <NavMenuItem text='Home' href='/' />

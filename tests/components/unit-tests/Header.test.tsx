@@ -18,9 +18,10 @@ describe('Header Component unit test', () => {
     );
 
     // Assert
-    expect(screen.getByAltText('Highworth Physiotherapy Clinic')).toBeInTheDocument();
+    expect(screen.getByRole('img')).toBeInTheDocument();
     expect(screen.getByRole('heading', {name: 'Highworth Physiotherapy Clinic'})).toBeInTheDocument();
     expect(screen.getByRole('link', {name: 'Call us on 01793 763814'})).toHaveAttribute('href', 'tel:+441793763814');
+    expect(screen.getByRole('button', {name: 'Switch to light mode'})).toBeInTheDocument();
     expect(screen.getByTestId('mockNavMenu')).toBeInTheDocument();
   });
 });
