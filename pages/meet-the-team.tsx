@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { GetStaticProps } from 'next';
-import { Person } from 'types';
+import { Person } from 'types/Person';
 import { TeamMember } from 'components/TeamMember';
 import data from 'data/people.json';
 

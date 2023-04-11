@@ -63,6 +63,11 @@ export default (plop) => {
       },
       {
         type: 'add',
+        path: 'components/{{pascalCase name}}/Docs.mdx',
+        templateFile: 'plop-templates/Component/Docs.mdx.hbs',
+      },
+      {
+        type: 'add',
         path: 'tests/components/unit-tests/{{pascalCase name}}.test.tsx',
         templateFile: 'plop-templates/Component/Component.test.tsx.hbs',
       },

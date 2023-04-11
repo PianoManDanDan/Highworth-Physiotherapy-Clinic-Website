@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { TeamMember } from 'components/TeamMember';
-import { Person } from 'types';
+import { Person } from 'types/Person';
 
 describe('TeamMember Component', () => {
   let teamMemberContent: Person;

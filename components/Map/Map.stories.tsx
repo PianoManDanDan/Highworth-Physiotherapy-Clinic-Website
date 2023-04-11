@@ -3,4 +3,8 @@ import { Map } from 'components/Map';
 
 export default { component: Map } as Meta;
 
-export const map: StoryObj<typeof Map> = {};
+export const map: StoryObj<typeof Map> = {
+  parameters: {
+    controls: { hideNoControlsWarning: true },
+  }
+};

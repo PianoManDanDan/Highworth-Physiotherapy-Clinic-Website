@@ -5,7 +5,6 @@ import fallbackImage from 'public/assets/people/placeholder.png'
 
 export default { 
   component: ImageWithFallback,
-  tags: ['autodocs'],
 } as Meta;
 
 const sharedProps: Partial<ImageProps> = {

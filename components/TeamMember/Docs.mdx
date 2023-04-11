@@ -1,0 +1,32 @@
+import { Meta, Title, Primary, Controls, Canvas } from '@storybook/blocks';
+import * as TeamMemberStories from './TeamMember.stories';
+
+<Meta of={TeamMemberStories} />
+
+<Title />
+
+Provides a brief biography for staff. Physiotherapists have extra information
+with their biography (qualifications, specialisms, etc.) so they have a slightly
+different layout and appearance to their `TeamMember` component.
+
+<Primary />
+
+## Props
+
+<Controls />
+
+## Stories
+
+### Physiotherapist
+
+Physiotherapist includes information on the individual's qualifications,
+specialisms and graduation dates, as well as biographical information
+about them.
+
+<Canvas of={TeamMemberStories.physiotherapist} />
+
+### Front desk staff
+
+Front desk staff only have biographical information.
+
+<Canvas of={TeamMemberStories.frontDeskStaff} />

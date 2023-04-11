@@ -1,5 +1,5 @@
 import { ImageWithFallback } from 'components/ImageWithFallback';
-import { Person } from 'types';
+import { Person } from 'types/Person';
 import styles from './TeamMember.module.scss';
 import teamMemberFallback from 'public/assets/people/placeholder.png';
 

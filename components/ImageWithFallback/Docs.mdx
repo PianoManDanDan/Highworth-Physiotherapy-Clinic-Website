@@ -1,0 +1,29 @@
+import { Meta, Title, Primary, Controls, Canvas } from '@storybook/blocks';
+import * as ImageWithFallbackStories from './ImageWithFallback.stories';
+
+<Meta of={ImageWithFallbackStories} />
+
+<Title />
+
+Provides a `next/image` wrapper that provides a fallback image in the case that
+the supplied image src errors.
+
+<Primary />
+
+## Props
+
+<Controls />
+
+## Stories
+
+### Valid Image src
+
+Image contains a valid image src so the correct image is rendered.
+
+<Canvas of={ImageWithFallbackStories.validImageSrc} />
+
+### Invalid Image src
+
+Image contains an invalid image src, so the fallback image is rendered.
+
+<Canvas of={ImageWithFallbackStories.brokenImageSrc} />
